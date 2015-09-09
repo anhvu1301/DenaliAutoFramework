@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="config">
+			<Prp name="node name" type="S" value="Bluetooth"/>
+		</Node>
+		<Node name="data">
+			<Node name="item0">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Settings.png"/>
+					<Prp name="initialhash" type="H" value="38565268"/>
+					<Prp name="initialheight" type="I" value="158"/>
+					<Prp name="initialleft" type="I" value="274"/>
+					<Prp name="initialtop" type="I" value="547"/>
+					<Prp name="initialwidth" type="I" value="126"/>
+					<Prp name="selectionheight" type="I" value="158"/>
+					<Prp name="selectionleft" type="I" value="274"/>
+					<Prp name="selectiontop" type="I" value="547"/>
+					<Prp name="selectionwidth" type="I" value="126"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Settings"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item1">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\Settings_Image.png"/>
+					<Prp name="initialhash" type="H" value="38565268"/>
+					<Prp name="initialheight" type="I" value="158"/>
+					<Prp name="initialleft" type="I" value="274"/>
+					<Prp name="initialtop" type="I" value="547"/>
+					<Prp name="initialwidth" type="I" value="126"/>
+					<Prp name="selectionheight" type="I" value="158"/>
+					<Prp name="selectionleft" type="I" value="274"/>
+					<Prp name="selectiontop" type="I" value="547"/>
+					<Prp name="selectionwidth" type="I" value="126"/>
+				</Node>
+				<Prp name="caption" type="S" value="Settings_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item2">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Bluetooth_Settings.png"/>
+					<Prp name="initialhash" type="H" value="0E7444D6"/>
+					<Prp name="initialheight" type="I" value="44"/>
+					<Prp name="initialleft" type="I" value="101"/>
+					<Prp name="initialtop" type="I" value="363"/>
+					<Prp name="initialwidth" type="I" value="137"/>
+					<Prp name="selectionheight" type="I" value="44"/>
+					<Prp name="selectionleft" type="I" value="101"/>
+					<Prp name="selectiontop" type="I" value="363"/>
+					<Prp name="selectionwidth" type="I" value="137"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Bluetooth_Settings"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item3">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\Bluetooth_settings_Image.png"/>
+					<Prp name="initialhash" type="H" value="0E7444D6"/>
+					<Prp name="initialheight" type="I" value="44"/>
+					<Prp name="initialleft" type="I" value="101"/>
+					<Prp name="initialtop" type="I" value="363"/>
+					<Prp name="initialwidth" type="I" value="137"/>
+					<Prp name="selectionheight" type="I" value="44"/>
+					<Prp name="selectionleft" type="I" value="101"/>
+					<Prp name="selectiontop" type="I" value="363"/>
+					<Prp name="selectionwidth" type="I" value="137"/>
+				</Node>
+				<Prp name="caption" type="S" value="Bluetooth_settings_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item4">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Switch_ON.png"/>
+					<Prp name="initialhash" type="H" value="EF73AB4B"/>
+					<Prp name="initialheight" type="I" value="48"/>
+					<Prp name="initialleft" type="I" value="348"/>
+					<Prp name="initialtop" type="I" value="50"/>
+					<Prp name="initialwidth" type="I" value="108"/>
+					<Prp name="selectionheight" type="I" value="48"/>
+					<Prp name="selectionleft" type="I" value="348"/>
+					<Prp name="selectiontop" type="I" value="50"/>
+					<Prp name="selectionwidth" type="I" value="108"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Switch_ON"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item5">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Switch_OFF.png"/>
+					<Prp name="initialhash" type="H" value="52F663A3"/>
+					<Prp name="initialheight" type="I" value="48"/>
+					<Prp name="initialleft" type="I" value="348"/>
+					<Prp name="initialtop" type="I" value="50"/>
+					<Prp name="initialwidth" type="I" value="108"/>
+					<Prp name="selectionheight" type="I" value="48"/>
+					<Prp name="selectionleft" type="I" value="348"/>
+					<Prp name="selectiontop" type="I" value="50"/>
+					<Prp name="selectionwidth" type="I" value="108"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Switch_OFF"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item6">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\Switch_ON_Image.png"/>
+					<Prp name="initialhash" type="H" value="EF73AB4B"/>
+					<Prp name="initialheight" type="I" value="48"/>
+					<Prp name="initialleft" type="I" value="348"/>
+					<Prp name="initialtop" type="I" value="50"/>
+					<Prp name="initialwidth" type="I" value="108"/>
+					<Prp name="selectionheight" type="I" value="48"/>
+					<Prp name="selectionleft" type="I" value="348"/>
+					<Prp name="selectiontop" type="I" value="50"/>
+					<Prp name="selectionwidth" type="I" value="108"/>
+				</Node>
+				<Prp name="caption" type="S" value="Switch_ON_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Prp name="item count" type="I" value="7"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{36093BF3-BC2D-4E86-BC88-212E17179FD4}"/>
+		<Prp name="signature" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="typename" type="S" value="Image Set"/>
+		<Prp name="version" type="I" value="100"/>
+	</Node>
+</Nodes>

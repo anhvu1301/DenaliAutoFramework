@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="config">
+			<Prp name="node name" type="S" value="phone"/>
+		</Node>
+		<Node name="data">
+			<Node name="item0">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\DataUage.png"/>
+					<Prp name="initialhash" type="H" value="DADEF686"/>
+					<Prp name="initialheight" type="I" value="229"/>
+					<Prp name="initialleft" type="I" value="47"/>
+					<Prp name="initialtop" type="I" value="503"/>
+					<Prp name="initialwidth" type="I" value="626"/>
+					<Prp name="selectionheight" type="I" value="229"/>
+					<Prp name="selectionleft" type="I" value="47"/>
+					<Prp name="selectiontop" type="I" value="503"/>
+					<Prp name="selectionwidth" type="I" value="626"/>
+				</Node>
+				<Prp name="caption" type="S" value="DataUage"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item1">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DataUsage.png"/>
+					<Prp name="initialhash" type="H" value="DADEF686"/>
+					<Prp name="initialheight" type="I" value="229"/>
+					<Prp name="initialleft" type="I" value="47"/>
+					<Prp name="initialtop" type="I" value="503"/>
+					<Prp name="initialwidth" type="I" value="626"/>
+					<Prp name="selectionheight" type="I" value="229"/>
+					<Prp name="selectionleft" type="I" value="47"/>
+					<Prp name="selectiontop" type="I" value="503"/>
+					<Prp name="selectionwidth" type="I" value="626"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DataUsage"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Prp name="item count" type="I" value="2"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{8A96DCC3-C71D-4F6A-BEFF-EEBAE21F4D08}"/>
+		<Prp name="signature" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="typename" type="S" value="Image Set"/>
+		<Prp name="version" type="I" value="100"/>
+	</Node>
+</Nodes>

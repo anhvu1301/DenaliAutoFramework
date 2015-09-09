@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="simple">
+							<Prp name="filename" type="S" value="EXCEL.EXE"/>
+							<Prp name="filepath" type="S" value="C:\Program Files\Microsoft Office\Office15\"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="EXCEL"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{93C93B95-0970-4C98-BD9B-7BC4CE42F214}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item1">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="simple">
+							<Prp name="filename" type="S" value="ONENOTE.EXE"/>
+							<Prp name="filepath" type="S" value="C:\Program Files\Microsoft Office\Office15\"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="ONENOTE"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{1F2EEB23-B004-44DD-B9EB-541B17F73AE4}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item2">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="workfolder" type="S" value="%HOMEDRIVE%%HOMEPATH%"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="notepad.exe"/>
+							<Prp name="filepath" type="S" value="%windir%\system32\"/>
+							<Prp name="workfolder" type="S" value="%HOMEDRIVE%%HOMEPATH%"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="notepad"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{68EBF0A0-5D74-4326-95A7-B4A8CDC64B4F}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item3">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="workfolder" type="S" value="C:\Users\Anh"/>
+						</Node>
+						<Node name="simple">
+							<Prp name="filename" type="S" value="cmd.exe"/>
+							<Prp name="filepath" type="S" value="C:\Windows\system32\"/>
+							<Prp name="workfolder" type="S" value="C:\Users\Anh"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="node name" type="S" value="cmd"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{259FDCCF-7625-474D-9C8E-8094F049D2DC}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item4">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="android">
+							<Prp name="apkfilename" type="S" value="C:\Anh\App\downloadfile.apk"/>
+							<Prp name="backupfilename" type="S" value="C:\Anh\App\downloadfile_ORIGINAL_BACKUP.apk"/>
+							<Prp name="deploy" type="B" value="-1"/>
+							<Prp name="keepdataandcache" type="B" value="0"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Android"/>
+					</Node>
+					<Prp name="node name" type="S" value="downloadfile"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{00BB0002-3098-4B5D-9731-3A829C4E6820}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item5">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="android">
+							<Prp name="apkfilename" type="S" value="C:\Anh\App\15.08.24.36_AccessTMOv460_releaseProductionLogging.apk"/>
+							<Prp name="backupfilename" type="S" value="C:\Anh\App\15.08.24.36_AccessTMOv460_releaseProductionLogging_ORIGINAL_BACKUP.apk"/>
+							<Prp name="deploy" type="B" value="-1"/>
+							<Prp name="keepdataandcache" type="B" value="0"/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Android"/>
+					</Node>
+					<Prp name="node name" type="S" value="_5_08_24_36_AccessTMOv460_releaseProductionLogging"/>
+					<Prp name="usefeaturedruntimeobject" type="B" value="-1"/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{D9475E12-1566-49FB-A31D-3EED970C68DD}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Prp name="item count" type="I" value="5"/>
+		</Node>
+		<Node name="config">
+			<Prp name="node name" type="S" value="TestedApps"/>
+		</Node>
+		<Node name="data"/>
+		<Node name="folders"/>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{60650E0D-540C-4CAF-9395-3B86FA8BF226}"/>
+		<Prp name="signature" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="typename" type="S" value="Tested Applications"/>
+		<Prp name="version" type="I" value="910"/>
+	</Node>
+</Nodes>

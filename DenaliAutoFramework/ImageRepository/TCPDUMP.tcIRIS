@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="config">
+			<Prp name="node name" type="S" value="TCPDUMP"/>
+		</Node>
+		<Node name="data">
+			<Node name="item0">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_PhoneIcon_Tcpdump.png"/>
+					<Prp name="initialhash" type="H" value="983A4134"/>
+					<Prp name="initialheight" type="I" value="160"/>
+					<Prp name="initialtop" type="I" value="1080"/>
+					<Prp name="initialwidth" type="I" value="144"/>
+					<Prp name="selectionheight" type="I" value="160"/>
+					<Prp name="selectiontop" type="I" value="1080"/>
+					<Prp name="selectionwidth" type="I" value="144"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_PhoneIcon_Tcpdump"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item1">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\PhoneIcon_Tcpd_Image.png"/>
+					<Prp name="initialhash" type="H" value="983A4134"/>
+					<Prp name="initialheight" type="I" value="160"/>
+					<Prp name="initialtop" type="I" value="1080"/>
+					<Prp name="initialwidth" type="I" value="144"/>
+					<Prp name="selectionheight" type="I" value="160"/>
+					<Prp name="selectiontop" type="I" value="1080"/>
+					<Prp name="selectionwidth" type="I" value="144"/>
+				</Node>
+				<Prp name="caption" type="S" value="PhoneIcon_Tcpd_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item10">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\TCPDump_Start_Image.png"/>
+					<Prp name="initialhash" type="H" value="0D7AC279"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialtop" type="I" value="624"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectiontop" type="I" value="624"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="TCPDump_Start_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item11">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_TCPDump_Stop.png"/>
+					<Prp name="initialhash" type="H" value="08676FA6"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialtop" type="I" value="624"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectiontop" type="I" value="624"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_TCPDump_Stop"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item12">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\TCPDump_Exist_Image.png"/>
+					<Prp name="initialhash" type="H" value="EB4CA7F7"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialtop" type="I" value="960"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectiontop" type="I" value="960"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="TCPDump_Exist_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item13">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_RunDumpStateLogCat.png"/>
+					<Prp name="initialhash" type="H" value="CC7C7B1A"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialtop" type="I" value="162"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectiontop" type="I" value="162"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_RunDumpStateLogCat"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item14">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\RunDumpStateLogCat_Image.png"/>
+					<Prp name="initialhash" type="H" value="CC7C7B1A"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialtop" type="I" value="162"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectiontop" type="I" value="162"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="RunDumpStateLogCat_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item15">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DumpRestult.png"/>
+					<Prp name="initialhash" type="H" value="7086CA75"/>
+					<Prp name="initialheight" type="I" value="424"/>
+					<Prp name="initialleft" type="I" value="47"/>
+					<Prp name="initialtop" type="I" value="453"/>
+					<Prp name="initialwidth" type="I" value="626"/>
+					<Prp name="selectionheight" type="I" value="424"/>
+					<Prp name="selectionleft" type="I" value="47"/>
+					<Prp name="selectiontop" type="I" value="453"/>
+					<Prp name="selectionwidth" type="I" value="626"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DumpRestult"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item16">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\DumpResult_OK_Image.png"/>
+					<Prp name="initialhash" type="H" value="1952B8AD"/>
+					<Prp name="initialheight" type="I" value="78"/>
+					<Prp name="initialleft" type="I" value="55"/>
+					<Prp name="initialtop" type="I" value="789"/>
+					<Prp name="initialwidth" type="I" value="610"/>
+					<Prp name="selectionheight" type="I" value="78"/>
+					<Prp name="selectionleft" type="I" value="55"/>
+					<Prp name="selectiontop" type="I" value="789"/>
+					<Prp name="selectionwidth" type="I" value="610"/>
+				</Node>
+				<Prp name="caption" type="S" value="DumpResult_OK_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item17">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\DumpResult_OK_2_Image.png"/>
+					<Prp name="initialhash" type="H" value="1952B8AD"/>
+					<Prp name="initialheight" type="I" value="78"/>
+					<Prp name="initialleft" type="I" value="55"/>
+					<Prp name="initialtop" type="I" value="855"/>
+					<Prp name="initialwidth" type="I" value="610"/>
+					<Prp name="selectionheight" type="I" value="78"/>
+					<Prp name="selectionleft" type="I" value="55"/>
+					<Prp name="selectiontop" type="I" value="855"/>
+					<Prp name="selectionwidth" type="I" value="610"/>
+				</Node>
+				<Prp name="caption" type="S" value="DumpResult_OK_2_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item18">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Copyto_SDCard.png"/>
+					<Prp name="initialhash" type="H" value="DD233B08"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialtop" type="I" value="834"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectiontop" type="I" value="834"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Copyto_SDCard"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item19">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\CopyToSDCard_Image.png"/>
+					<Prp name="initialhash" type="H" value="DD233B08"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialtop" type="I" value="834"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectiontop" type="I" value="834"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="CopyToSDCard_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item2">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Forced_CP.png"/>
+					<Prp name="initialhash" type="H" value="B6B08468"/>
+					<Prp name="initialheight" type="I" value="57"/>
+					<Prp name="initialleft" type="I" value="81"/>
+					<Prp name="initialtop" type="I" value="495"/>
+					<Prp name="initialwidth" type="I" value="558"/>
+					<Prp name="selectionheight" type="I" value="57"/>
+					<Prp name="selectionleft" type="I" value="81"/>
+					<Prp name="selectiontop" type="I" value="495"/>
+					<Prp name="selectionwidth" type="I" value="558"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Forced_CP"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item20">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Copy_Message.png"/>
+					<Prp name="initialhash" type="H" value="2702E527"/>
+					<Prp name="initialheight" type="I" value="141"/>
+					<Prp name="initialleft" type="I" value="47"/>
+					<Prp name="initialtop" type="I" value="596"/>
+					<Prp name="initialwidth" type="I" value="626"/>
+					<Prp name="selectionheight" type="I" value="141"/>
+					<Prp name="selectionleft" type="I" value="47"/>
+					<Prp name="selectiontop" type="I" value="596"/>
+					<Prp name="selectionwidth" type="I" value="626"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Copy_Message"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item21">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\Copy_OK_Image.png"/>
+					<Prp name="initialhash" type="H" value="D13E193B"/>
+					<Prp name="initialheight" type="I" value="78"/>
+					<Prp name="initialleft" type="I" value="55"/>
+					<Prp name="initialtop" type="I" value="745"/>
+					<Prp name="initialwidth" type="I" value="610"/>
+					<Prp name="selectionheight" type="I" value="78"/>
+					<Prp name="selectionleft" type="I" value="55"/>
+					<Prp name="selectiontop" type="I" value="745"/>
+					<Prp name="selectionwidth" type="I" value="610"/>
+				</Node>
+				<Prp name="caption" type="S" value="Copy_OK_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item3">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\Button_OK_TCPDump_Image.png"/>
+					<Prp name="initialhash" type="H" value="8E682A3E"/>
+					<Prp name="initialheight" type="I" value="78"/>
+					<Prp name="initialleft" type="I" value="365"/>
+					<Prp name="initialtop" type="I" value="767"/>
+					<Prp name="initialwidth" type="I" value="300"/>
+					<Prp name="selectionheight" type="I" value="78"/>
+					<Prp name="selectionleft" type="I" value="365"/>
+					<Prp name="selectiontop" type="I" value="767"/>
+					<Prp name="selectionwidth" type="I" value="300"/>
+				</Node>
+				<Prp name="caption" type="S" value="Button_OK_TCPDump_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item4">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_SysDump.png"/>
+					<Prp name="initialhash" type="H" value="825CF8D7"/>
+					<Prp name="initialheight" type="I" value="51"/>
+					<Prp name="initialleft" type="I" value="108"/>
+					<Prp name="initialtop" type="I" value="72"/>
+					<Prp name="initialwidth" type="I" value="165"/>
+					<Prp name="selectionheight" type="I" value="51"/>
+					<Prp name="selectionleft" type="I" value="108"/>
+					<Prp name="selectiontop" type="I" value="72"/>
+					<Prp name="selectionwidth" type="I" value="165"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_SysDump"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item5">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DeleteDump_SS3.png"/>
+					<Prp name="initialhash" type="H" value="0CD03617"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialtop" type="I" value="274"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectiontop" type="I" value="274"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DeleteDump_SS3"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item6">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\Delete_dum_Image_SS3.png"/>
+					<Prp name="initialhash" type="H" value="0CD03617"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialtop" type="I" value="274"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectiontop" type="I" value="274"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="Delete_dum_Image_SS3"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item7">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Poup_Delete_Dum.png"/>
+					<Prp name="initialhash" type="H" value="87500BD2"/>
+					<Prp name="initialheight" type="I" value="141"/>
+					<Prp name="initialleft" type="I" value="47"/>
+					<Prp name="initialtop" type="I" value="596"/>
+					<Prp name="initialwidth" type="I" value="626"/>
+					<Prp name="selectionheight" type="I" value="141"/>
+					<Prp name="selectionleft" type="I" value="47"/>
+					<Prp name="selectiontop" type="I" value="596"/>
+					<Prp name="selectionwidth" type="I" value="626"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Poup_Delete_Dum"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item8">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\DeleteDump_OK_Image.png"/>
+					<Prp name="initialhash" type="H" value="D13E193B"/>
+					<Prp name="initialheight" type="I" value="78"/>
+					<Prp name="initialleft" type="I" value="55"/>
+					<Prp name="initialtop" type="I" value="745"/>
+					<Prp name="initialwidth" type="I" value="610"/>
+					<Prp name="selectionheight" type="I" value="78"/>
+					<Prp name="selectionleft" type="I" value="55"/>
+					<Prp name="selectiontop" type="I" value="745"/>
+					<Prp name="selectionwidth" type="I" value="610"/>
+				</Node>
+				<Prp name="caption" type="S" value="DeleteDump_OK_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item9">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Start_TCPDump.png"/>
+					<Prp name="initialhash" type="H" value="0D7AC279"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialtop" type="I" value="624"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectiontop" type="I" value="624"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Start_TCPDump"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Prp name="item count" type="I" value="22"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{2ACBC947-67F6-48E6-A841-1B1156C02FC5}"/>
+		<Prp name="signature" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="typename" type="S" value="Image Set"/>
+		<Prp name="version" type="I" value="100"/>
+	</Node>
+</Nodes>

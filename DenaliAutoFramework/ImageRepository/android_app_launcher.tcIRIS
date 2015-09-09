@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="config">
+			<Prp name="node name" type="S" value="android_app_launcher"/>
+		</Node>
+		<Node name="data">
+			<Node name="item0">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Apps.png"/>
+					<Prp name="initialhash" type="H" value="5D5FC482"/>
+					<Prp name="initialheight" type="I" value="368"/>
+					<Prp name="initialleft" type="I" value="1152"/>
+					<Prp name="initialtop" type="I" value="2146"/>
+					<Prp name="initialwidth" type="I" value="288"/>
+					<Prp name="selectionheight" type="I" value="368"/>
+					<Prp name="selectionleft" type="I" value="1152"/>
+					<Prp name="selectiontop" type="I" value="2146"/>
+					<Prp name="selectionwidth" type="I" value="288"/>
+				</Node>
+				<Prp name="caption" type="S" value="Apps"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item1">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\Phone_Icon.png"/>
+					<Prp name="initialhash" type="H" value="983A4134"/>
+					<Prp name="initialheight" type="I" value="160"/>
+					<Prp name="initialtop" type="I" value="1080"/>
+					<Prp name="initialwidth" type="I" value="144"/>
+					<Prp name="selectionheight" type="I" value="160"/>
+					<Prp name="selectiontop" type="I" value="1080"/>
+					<Prp name="selectionwidth" type="I" value="144"/>
+				</Node>
+				<Prp name="caption" type="S" value="Phone_Icon"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Prp name="item count" type="I" value="2"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{65EE2C84-0513-4F77-A25B-4134818A590E}"/>
+		<Prp name="signature" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="typename" type="S" value="Image Set"/>
+		<Prp name="version" type="I" value="100"/>
+	</Node>
+</Nodes>

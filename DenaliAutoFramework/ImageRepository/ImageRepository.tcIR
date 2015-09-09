@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0">
+				<Prp name="key" type="S" value="{65EE2C84-0513-4F77-A25B-4134818A590E}"/>
+				<Prp name="storage" type="S" value="android_app_launcher.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item1">
+				<Prp name="key" type="S" value="{D675D721-6269-46B9-A723-C24A251874EF}"/>
+				<Prp name="storage" type="S" value="android_youtube.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item10">
+				<Prp name="key" type="S" value="{8F200B4B-B14E-468D-A3AC-003FCF8B1C20}"/>
+				<Prp name="storage" type="S" value="MyAccount.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item11">
+				<Prp name="key" type="S" value="{08118749-5B9D-43CD-9061-43FE55A511EB}"/>
+				<Prp name="storage" type="S" value="android_app_servicemodeapp.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item12">
+				<Prp name="key" type="S" value="{CCCE9D2B-45AD-44E6-8135-3817E951BEFA}"/>
+				<Prp name="storage" type="S" value="Audible.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item13">
+				<Prp name="key" type="S" value="{92F2717E-ABCE-46B8-B09A-F6B17FE77950}"/>
+				<Prp name="storage" type="S" value="pr_mytmobile.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item14">
+				<Prp name="key" type="S" value="{36093BF3-BC2D-4E86-BC88-212E17179FD4}"/>
+				<Prp name="storage" type="S" value="Bluetooth.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item15">
+				<Prp name="key" type="S" value="{3A8A13AB-4D1F-4597-9513-90DD4168F15D}"/>
+				<Prp name="storage" type="S" value="Spotify.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item16">
+				<Prp name="key" type="S" value="{28399064-8CE3-4A0F-984A-9021ED24B5AA}"/>
+				<Prp name="storage" type="S" value="vending.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item17">
+				<Prp name="key" type="S" value="{FEBF8B5C-BF95-4E81-9761-4B97BE65B561}"/>
+				<Prp name="storage" type="S" value="spinrilla.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item2">
+				<Prp name="key" type="S" value="{0B9C7285-1D6B-47E6-B241-EAFF1A25793E}"/>
+				<Prp name="storage" type="S" value="CheckPoint.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item3">
+				<Prp name="key" type="S" value="{A146B9C4-C4A0-436A-8658-941ABF242C08}"/>
+				<Prp name="storage" type="S" value="SS4_AndroidApps.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item4">
+				<Prp name="key" type="S" value="{FE12A834-BD74-490D-9D09-D2ABC9B45247}"/>
+				<Prp name="storage" type="S" value="SS4_CheckPoint.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item5">
+				<Prp name="key" type="S" value="{614C0D3D-697E-4779-B64B-78D915BC8579}"/>
+				<Prp name="storage" type="S" value="SS3_AndroidApps.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item6">
+				<Prp name="key" type="S" value="{4DE8596B-681B-4043-ABFA-3AFC52C97FFF}"/>
+				<Prp name="storage" type="S" value="SS3_CheckPoint.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item7">
+				<Prp name="key" type="S" value="{EEBD78C1-DAAE-4AF8-B947-0F024E80425B}"/>
+				<Prp name="storage" type="S" value="android.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item8">
+				<Prp name="key" type="S" value="{8A96DCC3-C71D-4F6A-BEFF-EEBAE21F4D08}"/>
+				<Prp name="storage" type="S" value="phone.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Node name="item9">
+				<Prp name="key" type="S" value="{2ACBC947-67F6-48E6-A841-1B1156C02FC5}"/>
+				<Prp name="storage" type="S" value="TCPDUMP.tcIRIS"/>
+				<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+				<Prp name="typename" type="S" value="Image Set"/>
+			</Node>
+			<Prp name="item count" type="I" value="18"/>
+		</Node>
+		<Node name="config">
+			<Prp name="node name" type="S" value="ImageRepository"/>
+		</Node>
+		<Node name="data"/>
+		<Node name="folders">
+			<Node name="ss3_device">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{4de8596b-681b-4043-abfa-3afc52c97fff}" type="S" value=""/>
+					<Prp name="{614c0d3d-697e-4779-b64b-78d915bc8579}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="SS3_Device"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="ss4_device">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{8f200b4b-b14e-468d-a3ac-003fcf8b1c20}" type="S" value=""/>
+					<Prp name="{a146b9c4-c4a0-436a-8658-941abf242c08}" type="S" value=""/>
+					<Prp name="{fe12a834-bd74-490d-9d09-d2abc9b45247}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="SS4_Device"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{18B91D3E-E4A7-4BA5-8EAA-0B168992A8DD}"/>
+		<Prp name="signature" type="S" value="{E7C36009-4A66-4899-99AE-DEFC5C22C057}"/>
+		<Prp name="type" type="S" value="{E7C36009-4A66-4899-99AE-DEFC5C22C057}"/>
+		<Prp name="typename" type="S" value="Image Repository"/>
+		<Prp name="version" type="I" value="100"/>
+	</Node>
+</Nodes>

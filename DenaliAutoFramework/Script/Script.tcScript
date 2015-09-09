@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="adb_command">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ADB_Command.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{7743BFFE-59F7-4DDB-8D86-F1FC9C8F6B4F}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="audible_scripts">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Audible_Scripts.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{05C5B1BE-6CBF-44B8-BF1A-FAC028AC2A17}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="audible_test_flow">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Audible_Test_Flow.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{1F7AB7DB-AC2F-4873-908A-5AAA1916EDBC}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="bar_lib">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Bar_Lib.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{BB93166E-03EB-4D2D-A7C3-DE8F63E6820D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="common">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Common.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{FE25392E-1A57-4BB6-AE3B-5F368A6A714A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="developingscript">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="DevelopingScript.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{EE31A5BA-A8A5-4626-A792-5F0B91C269D3}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="eventlistener">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="EventListener.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{AE5E7B97-7B3C-4E30-90F3-5D43916EF62C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="framework">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Framework.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{6839F5D1-4F0E-4700-A0D3-F3651DB8BE68}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="general">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="General.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{127FB46F-B3E7-41CE-920A-51DF473FA74D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="generalfunction">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="GeneralFunction.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{DA2B2507-A6B0-41BB-9042-A4D16F8BBE6D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="handler">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Handler.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{BE18C100-4403-487F-8741-BE90079D6ADE}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="keyword">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Keyword.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{94438914-FF23-4A11-B362-0AA856211DBC}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="milk_music_test_flow">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Milk_Music_Test_Flow.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{A49CD756-C545-43D2-9CAA-88491E635D62}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="myaccount_check_bluetooth_history_on_off">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MyAccount_Check_Bluetooth_History_ON_OFF.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{D3D0CE1C-5963-4B48-BB6C-9665038ADE5E}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="myaccount_maq_2360_1h_test_sgh_t999">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MyAccount_MAQ_2360_1h_test_SGH_T999.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{5B7FE5FE-A31D-4337-981B-7B8AE8F35885}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="myaccount_maq_2360_1h_test_sm_g386t">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MyAccount_MAQ_2360_1h_test_SM_G386T.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{AAD5CD55-3CE5-44E6-A133-A1E3AAF97E3B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="myaccount_maq_2360_1h_test_sm_n910t">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MyAccount_MAQ_2360_1h_test_SM_N910T.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{346A418A-676C-4EB7-B29E-D2EAC3500D07}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="myaccount_maq_2371_24h_test_sgh_t999">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MyAccount_MAQ_2371_24h_Test_SGH_T999.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{2BC42E22-D4CE-4502-9980-15CF867832B7}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="myaccount_maq_2371_24h_test_sm_g386t">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MyAccount_MAQ_2371_24h_Test_SM_G386T.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{43A06756-4FDC-4499-9061-AE29F015AA83}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="myaccount_maq_2371_24h_test_sm_n910t">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MyAccount_MAQ_2371_24h_Test_SM_N910T.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{76846612-CFEA-4C2C-894C-00FD32238AC6}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="pandora_test_flow">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Pandora_Test_Flow.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{4C93D7E7-D954-49DF-9A57-AED1392E7202}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="report">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Report.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{F46786F7-F9AE-46F1-A3A7-7EFF065ED692}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="so">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SO.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{09188841-7452-43DF-B914-D88631850108}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="spinrilla_scripts">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Spinrilla_Scripts.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{B2896888-5A19-42DB-83F4-D2C845028832}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="spinrilla_test_flow">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Spinrilla_Test_Flow.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{D4F7B4D8-A06E-424C-A71E-EB20CDE96BD5}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="spotify_scripts">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Spotify_Scripts.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{259C02E8-7C1A-469A-8007-47BD5307B446}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="spotify_test_flow">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Spotify_Test_Flow.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{553AA521-98BA-4187-BBB7-1159E2D4259B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="ss3_scripts">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SS3_Scripts.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{A416D456-4A2C-4DBE-AF16-3D8EC1BB11B1}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="ss4_sm_n910t">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SS4_SM_N910T.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{43B29727-9B8E-45C9-B7A2-0ECB4250254F}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="tcpdump">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TCPDump.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{634A51F3-7DFB-4F46-A1F0-4FD9B99981EB}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="temp">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Temp.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{859BBCD8-6951-4191-A14F-813AE752EBC8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="testmobilefunction">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Testmobilefunction.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{3303451D-B2E4-42BD-960A-05C21ADFDAF1}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="testscript">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestScript.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{9AB9F6DC-A550-4B63-B5A5-9A2F3FCB5187}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="tm_myaccount">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TM_MyAccount.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{EAD2FA4F-2BC2-4455-BFFE-0EF98717CD57}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="tm_myaccount_test_flow">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TM_MyAccount_Test_FLow.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{05A99AF5-574D-4260-98BD-EB96B1F5DC21}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="web">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Web.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{5A2F0820-75F2-4B83-9CD6-FD96EF2A4BB5}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="xmlresult">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="XMLResult.scs"/>
+				</Node>
+				<Prp name="key" type="S" value="{51B53486-E4F4-4528-9F98-F873FA7F9495}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="actions">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{5a2f0820-75f2-4b83-9cd6-fd96ef2a4bb5}" type="S" value=""/>
+					<Prp name="{bb93166e-03eb-4d2d-a7c3-de8f63e6820d}" type="S" value=""/>
+					<Prp name="{fe25392e-1a57-4bb6-ae3b-5f368a6a714a}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Actions"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="demo">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{859bbcd8-6951-4191-a14f-813ae752ebc8}" type="S" value=""/>
+					<Prp name="{9ab9f6dc-a550-4b63-b5a5-9a2f3fcb5187}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Demo"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="dioms">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{09188841-7452-43df-b914-d88631850108}" type="S" value=""/>
+					<Prp name="{127fb46f-b3e7-41ce-920a-51df473fa74d}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="DIoms"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="mobile">
+				<Node name="folders">
+					<Node name="test flow">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{05a99af5-574d-4260-98bd-eb96b1f5dc21}" type="S" value=""/>
+							<Prp name="{1f7ab7db-ac2f-4873-908a-5aaa1916edbc}" type="S" value=""/>
+							<Prp name="{2bc42e22-d4ce-4502-9980-15cf867832b7}" type="S" value=""/>
+							<Prp name="{346a418a-676c-4eb7-b29e-d2eac3500d07}" type="S" value=""/>
+							<Prp name="{43a06756-4fdc-4499-9061-ae29f015aa83}" type="S" value=""/>
+							<Prp name="{4c93d7e7-d954-49df-9a57-aed1392e7202}" type="S" value=""/>
+							<Prp name="{553aa521-98ba-4187-bbb7-1159e2d4259b}" type="S" value=""/>
+							<Prp name="{5b7fe5fe-a31d-4337-981b-7b8ae8f35885}" type="S" value=""/>
+							<Prp name="{76846612-cfea-4c2c-894c-00fd32238ac6}" type="S" value=""/>
+							<Prp name="{a49cd756-c545-43d2-9caa-88491e635d62}" type="S" value=""/>
+							<Prp name="{aad5cd55-3ce5-44e6-a133-a1e3aaf97e3b}" type="S" value=""/>
+							<Prp name="{d3d0ce1c-5963-4b48-bb6c-9665038ade5e}" type="S" value=""/>
+							<Prp name="{d4f7b4d8-a06e-424c-a71e-eb20cde96bd5}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Test Flow"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+				</Node>
+				<Node name="references">
+					<Prp name="{05c5b1be-6cbf-44b8-bf1a-fac028ac2a17}" type="S" value=""/>
+					<Prp name="{259c02e8-7c1a-469a-8007-47bd5307b446}" type="S" value=""/>
+					<Prp name="{3303451d-b2e4-42bd-960a-05c21adfdaf1}" type="S" value=""/>
+					<Prp name="{43b29727-9b8e-45c9-b7a2-0ecb4250254f}" type="S" value=""/>
+					<Prp name="{634a51f3-7dfb-4f46-a1f0-4fd9b99981eb}" type="S" value=""/>
+					<Prp name="{a416d456-4a2c-4dbe-af16-3d8ec1bb11b1}" type="S" value=""/>
+					<Prp name="{b2896888-5a19-42db-83f4-d2c845028832}" type="S" value=""/>
+					<Prp name="{da2b2507-a6b0-41bb-9042-a4d16f8bbe6d}" type="S" value=""/>
+					<Prp name="{ead2fa4f-2bc2-4455-bffe-0ef98717cd57}" type="S" value=""/>
+					<Prp name="{ee31a5ba-a8a5-4626-a792-5f0b91c269d3}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Mobile"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="settingsversion" type="S" value="9.10"/>
+		<Prp name="signature" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

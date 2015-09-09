@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="config">
+			<Prp name="node name" type="S" value="SS3_CheckPoint"/>
+		</Node>
+		<Node name="data">
+			<Node name="item0">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\SS3_CheckPoint_Pandora.png"/>
+					<Prp name="initialhash" type="H" value="50614116"/>
+					<Prp name="initialheight" type="I" value="190"/>
+					<Prp name="initialleft" type="I" value="190"/>
+					<Prp name="initialtop" type="I" value="534"/>
+					<Prp name="initialwidth" type="I" value="160"/>
+					<Prp name="selectionheight" type="I" value="190"/>
+					<Prp name="selectionleft" type="I" value="190"/>
+					<Prp name="selectiontop" type="I" value="534"/>
+					<Prp name="selectionwidth" type="I" value="160"/>
+				</Node>
+				<Prp name="caption" type="S" value="SS3_CheckPoint_Pandora"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item1">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\Pandora_CheckPoint.png"/>
+					<Prp name="initialhash" type="H" value="225D284A"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialleft" type="I" value="17"/>
+					<Prp name="initialtop" type="I" value="50"/>
+					<Prp name="initialwidth" type="I" value="260"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectionleft" type="I" value="17"/>
+					<Prp name="selectiontop" type="I" value="50"/>
+					<Prp name="selectionwidth" type="I" value="260"/>
+				</Node>
+				<Prp name="caption" type="S" value="Pandora_CheckPoint"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item2">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\Checkpoint_Create_Sta.png"/>
+					<Prp name="initialhash" type="H" value="3A564F21"/>
+					<Prp name="initialheight" type="I" value="120"/>
+					<Prp name="initialleft" type="I" value="116"/>
+					<Prp name="initialtop" type="I" value="242"/>
+					<Prp name="initialwidth" type="I" value="604"/>
+					<Prp name="selectionheight" type="I" value="120"/>
+					<Prp name="selectionleft" type="I" value="116"/>
+					<Prp name="selectiontop" type="I" value="242"/>
+					<Prp name="selectionwidth" type="I" value="604"/>
+				</Node>
+				<Prp name="caption" type="S" value="Checkpoint_Create_Sta"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item3">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_MilkMusic_Play.png"/>
+					<Prp name="initialhash" type="H" value="3C7DB03C"/>
+					<Prp name="initialheight" type="I" value="73"/>
+					<Prp name="initialleft" type="I" value="333"/>
+					<Prp name="initialtop" type="I" value="604"/>
+					<Prp name="initialwidth" type="I" value="56"/>
+					<Prp name="selectionheight" type="I" value="73"/>
+					<Prp name="selectionleft" type="I" value="333"/>
+					<Prp name="selectiontop" type="I" value="604"/>
+					<Prp name="selectionwidth" type="I" value="56"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_MilkMusic_Play"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item4">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_MilkMusic_OpenApp_update.png"/>
+					<Prp name="initialhash" type="H" value="DE24D2AF"/>
+					<Prp name="initialheight" type="I" value="42"/>
+					<Prp name="initialleft" type="I" value="410"/>
+					<Prp name="initialtop" type="I" value="1116"/>
+					<Prp name="initialwidth" type="I" value="52"/>
+					<Prp name="selectionheight" type="I" value="42"/>
+					<Prp name="selectionleft" type="I" value="410"/>
+					<Prp name="selectiontop" type="I" value="1116"/>
+					<Prp name="selectionwidth" type="I" value="52"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_MilkMusic_OpenApp_update"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item5">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_SkiptoPandora.png"/>
+					<Prp name="initialhash" type="H" value="DE6ADF4E"/>
+					<Prp name="initialheight" type="I" value="68"/>
+					<Prp name="initialleft" type="I" value="110"/>
+					<Prp name="initialtop" type="I" value="1172"/>
+					<Prp name="initialwidth" type="I" value="500"/>
+					<Prp name="selectionheight" type="I" value="68"/>
+					<Prp name="selectionleft" type="I" value="110"/>
+					<Prp name="selectiontop" type="I" value="1172"/>
+					<Prp name="selectionwidth" type="I" value="500"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_SkiptoPandora"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item6">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_WebPound.png"/>
+					<Prp name="initialhash" type="H" value="76BEE5AA"/>
+					<Prp name="initialheight" type="I" value="78"/>
+					<Prp name="initialleft" type="I" value="55"/>
+					<Prp name="initialtop" type="I" value="740"/>
+					<Prp name="initialwidth" type="I" value="610"/>
+					<Prp name="selectionheight" type="I" value="78"/>
+					<Prp name="selectionleft" type="I" value="55"/>
+					<Prp name="selectiontop" type="I" value="740"/>
+					<Prp name="selectionwidth" type="I" value="610"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_WebPound"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item7">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_StillListening_SGH_T999.png"/>
+					<Prp name="initialhash" type="H" value="78165F2C"/>
+					<Prp name="initialheight" type="I" value="738"/>
+					<Prp name="initialleft" type="I" value="60"/>
+					<Prp name="initialtop" type="I" value="296"/>
+					<Prp name="initialwidth" type="I" value="600"/>
+					<Prp name="selectionheight" type="I" value="738"/>
+					<Prp name="selectionleft" type="I" value="60"/>
+					<Prp name="selectiontop" type="I" value="296"/>
+					<Prp name="selectionwidth" type="I" value="600"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_StillListening_SGH_T999"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item8">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_SkiptoPandora_Update_T999.png"/>
+					<Prp name="initialhash" type="H" value="DE6ADF4E"/>
+					<Prp name="initialheight" type="I" value="68"/>
+					<Prp name="initialleft" type="I" value="110"/>
+					<Prp name="initialtop" type="I" value="1172"/>
+					<Prp name="initialwidth" type="I" value="500"/>
+					<Prp name="selectionheight" type="I" value="68"/>
+					<Prp name="selectionleft" type="I" value="110"/>
+					<Prp name="selectiontop" type="I" value="1172"/>
+					<Prp name="selectionwidth" type="I" value="500"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_SkiptoPandora_Update_T999"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Prp name="item count" type="I" value="9"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{4DE8596B-681B-4043-ABFA-3AFC52C97FFF}"/>
+		<Prp name="signature" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="typename" type="S" value="Image Set"/>
+		<Prp name="version" type="I" value="100"/>
+	</Node>
+</Nodes>

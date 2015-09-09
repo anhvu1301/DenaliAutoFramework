@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="config">
+			<Prp name="node name" type="S" value="Audible"/>
+		</Node>
+		<Node name="data">
+			<Node name="item0">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Search.png"/>
+					<Prp name="initialhash" type="H" value="DC94D0DD"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialleft" type="I" value="384"/>
+					<Prp name="initialtop" type="I" value="50"/>
+					<Prp name="initialwidth" type="I" value="112"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectionleft" type="I" value="384"/>
+					<Prp name="selectiontop" type="I" value="50"/>
+					<Prp name="selectionwidth" type="I" value="112"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Search"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item1">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\Search_Image.png"/>
+					<Prp name="initialhash" type="H" value="DC94D0DD"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialleft" type="I" value="384"/>
+					<Prp name="initialtop" type="I" value="50"/>
+					<Prp name="initialwidth" type="I" value="112"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectionleft" type="I" value="384"/>
+					<Prp name="selectiontop" type="I" value="50"/>
+					<Prp name="selectionwidth" type="I" value="112"/>
+				</Node>
+				<Prp name="caption" type="S" value="Search_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item10">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Library_SM_N910T_Image.png"/>
+					<Prp name="initialhash" type="H" value="17B757C6"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialtop" type="I" value="292"/>
+					<Prp name="initialwidth" type="I" value="720"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectiontop" type="I" value="292"/>
+					<Prp name="selectionwidth" type="I" value="720"/>
+				</Node>
+				<Prp name="caption" type="S" value="Library_SM_N910T_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item11">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DataUsage_SM_N910T.png"/>
+					<Prp name="initialhash" type="H" value="5DD39C0B"/>
+					<Prp name="initialheight" type="I" value="117"/>
+					<Prp name="initialleft" type="I" value="180"/>
+					<Prp name="initialtop" type="I" value="738"/>
+					<Prp name="initialwidth" type="I" value="1080"/>
+					<Prp name="selectionheight" type="I" value="117"/>
+					<Prp name="selectionleft" type="I" value="180"/>
+					<Prp name="selectiontop" type="I" value="738"/>
+					<Prp name="selectionwidth" type="I" value="1080"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DataUsage_SM_N910T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item12">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Continue_DataUsage_SM_N910T_Image.png"/>
+					<Prp name="initialhash" type="H" value="EC3238DF"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialleft" type="I" value="116"/>
+					<Prp name="initialtop" type="I" value="1798"/>
+					<Prp name="initialwidth" type="I" value="1208"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectionleft" type="I" value="116"/>
+					<Prp name="selectiontop" type="I" value="1798"/>
+					<Prp name="selectionwidth" type="I" value="1208"/>
+				</Node>
+				<Prp name="caption" type="S" value="Continue_DataUsage_SM_N910T_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item13">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_My_Library_Cloud_Device.png"/>
+					<Prp name="initialhash" type="H" value="347BDBE1"/>
+					<Prp name="initialheight" type="I" value="97"/>
+					<Prp name="initialleft" type="I" value="225"/>
+					<Prp name="initialtop" type="I" value="109"/>
+					<Prp name="initialwidth" type="I" value="332"/>
+					<Prp name="selectionheight" type="I" value="97"/>
+					<Prp name="selectionleft" type="I" value="225"/>
+					<Prp name="selectiontop" type="I" value="109"/>
+					<Prp name="selectionwidth" type="I" value="332"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_My_Library_Cloud_Device"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item14">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\My_Library_Cloud_Device_Image.png"/>
+					<Prp name="initialhash" type="H" value="347BDBE1"/>
+					<Prp name="initialheight" type="I" value="97"/>
+					<Prp name="initialleft" type="I" value="225"/>
+					<Prp name="initialtop" type="I" value="109"/>
+					<Prp name="initialwidth" type="I" value="332"/>
+					<Prp name="selectionheight" type="I" value="97"/>
+					<Prp name="selectionleft" type="I" value="225"/>
+					<Prp name="selectiontop" type="I" value="109"/>
+					<Prp name="selectionwidth" type="I" value="332"/>
+				</Node>
+				<Prp name="caption" type="S" value="My_Library_Cloud_Device_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item15">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Device_Image.png"/>
+					<Prp name="initialhash" type="H" value="7C31013C"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialleft" type="I" value="193"/>
+					<Prp name="initialtop" type="I" value="487"/>
+					<Prp name="initialwidth" type="I" value="584"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectionleft" type="I" value="193"/>
+					<Prp name="selectiontop" type="I" value="487"/>
+					<Prp name="selectionwidth" type="I" value="584"/>
+				</Node>
+				<Prp name="caption" type="S" value="Device_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item16">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\My_Library_2_Image.png"/>
+					<Prp name="initialhash" type="H" value="2E646D7E"/>
+					<Prp name="initialheight" type="I" value="97"/>
+					<Prp name="initialleft" type="I" value="225"/>
+					<Prp name="initialtop" type="I" value="109"/>
+					<Prp name="initialwidth" type="I" value="330"/>
+					<Prp name="selectionheight" type="I" value="97"/>
+					<Prp name="selectionleft" type="I" value="225"/>
+					<Prp name="selectiontop" type="I" value="109"/>
+					<Prp name="selectionwidth" type="I" value="330"/>
+				</Node>
+				<Prp name="caption" type="S" value="My_Library_2_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item17">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Device_Image2.png"/>
+					<Prp name="initialhash" type="H" value="A7B2D5F6"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialleft" type="I" value="193"/>
+					<Prp name="initialtop" type="I" value="487"/>
+					<Prp name="initialwidth" type="I" value="584"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectionleft" type="I" value="193"/>
+					<Prp name="selectiontop" type="I" value="487"/>
+					<Prp name="selectionwidth" type="I" value="584"/>
+				</Node>
+				<Prp name="caption" type="S" value="Device_Image2"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item18">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\option_button_Image.png"/>
+					<Prp name="initialhash" type="H" value="9C098671"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialleft" type="I" value="1248"/>
+					<Prp name="initialtop" type="I" value="380"/>
+					<Prp name="initialwidth" type="I" value="192"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectionleft" type="I" value="1248"/>
+					<Prp name="selectiontop" type="I" value="380"/>
+					<Prp name="selectionwidth" type="I" value="192"/>
+				</Node>
+				<Prp name="caption" type="S" value="option_button_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item19">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Remove_FromDevice_Image.png"/>
+					<Prp name="initialhash" type="H" value="7E1DFB56"/>
+					<Prp name="initialheight" type="I" value="97"/>
+					<Prp name="initialleft" type="I" value="180"/>
+					<Prp name="initialtop" type="I" value="1218"/>
+					<Prp name="initialwidth" type="I" value="1080"/>
+					<Prp name="selectionheight" type="I" value="97"/>
+					<Prp name="selectionleft" type="I" value="180"/>
+					<Prp name="selectiontop" type="I" value="1218"/>
+					<Prp name="selectionwidth" type="I" value="1080"/>
+				</Node>
+				<Prp name="caption" type="S" value="Remove_FromDevice_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item2">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Store_SearchbyStore.png"/>
+					<Prp name="initialhash" type="H" value="153D9EBC"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialleft" type="I" value="360"/>
+					<Prp name="initialtop" type="I" value="146"/>
+					<Prp name="initialwidth" type="I" value="360"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectionleft" type="I" value="360"/>
+					<Prp name="selectiontop" type="I" value="146"/>
+					<Prp name="selectionwidth" type="I" value="360"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Store_SearchbyStore"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item20">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Cloud_Image.png"/>
+					<Prp name="initialhash" type="H" value="BBE90042"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialleft" type="I" value="193"/>
+					<Prp name="initialtop" type="I" value="292"/>
+					<Prp name="initialwidth" type="I" value="584"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectionleft" type="I" value="193"/>
+					<Prp name="selectiontop" type="I" value="292"/>
+					<Prp name="selectionwidth" type="I" value="584"/>
+				</Node>
+				<Prp name="caption" type="S" value="Cloud_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item3">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\Store_Image.png"/>
+					<Prp name="initialhash" type="H" value="153D9EBC"/>
+					<Prp name="initialheight" type="I" value="96"/>
+					<Prp name="initialleft" type="I" value="360"/>
+					<Prp name="initialtop" type="I" value="146"/>
+					<Prp name="initialwidth" type="I" value="360"/>
+					<Prp name="selectionheight" type="I" value="96"/>
+					<Prp name="selectionleft" type="I" value="360"/>
+					<Prp name="selectiontop" type="I" value="146"/>
+					<Prp name="selectionwidth" type="I" value="360"/>
+				</Node>
+				<Prp name="caption" type="S" value="Store_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item4">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_CountofMonteCristo.png"/>
+					<Prp name="initialhash" type="H" value="7409F91A"/>
+					<Prp name="initialheight" type="I" value="81"/>
+					<Prp name="initialleft" type="I" value="26"/>
+					<Prp name="initialtop" type="I" value="589"/>
+					<Prp name="initialwidth" type="I" value="321"/>
+					<Prp name="selectionheight" type="I" value="81"/>
+					<Prp name="selectionleft" type="I" value="26"/>
+					<Prp name="selectiontop" type="I" value="589"/>
+					<Prp name="selectionwidth" type="I" value="321"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_CountofMonteCristo"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item5">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\CountofMonteCristo_Image.png"/>
+					<Prp name="initialhash" type="H" value="27A87EDB"/>
+					<Prp name="initialheight" type="I" value="81"/>
+					<Prp name="initialleft" type="I" value="26"/>
+					<Prp name="initialtop" type="I" value="589"/>
+					<Prp name="initialwidth" type="I" value="321"/>
+					<Prp name="selectionheight" type="I" value="81"/>
+					<Prp name="selectionleft" type="I" value="26"/>
+					<Prp name="selectiontop" type="I" value="589"/>
+					<Prp name="selectionwidth" type="I" value="321"/>
+				</Node>
+				<Prp name="caption" type="S" value="CountofMonteCristo_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item6">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\CountofMonteCristoUpdate_Image.png"/>
+					<Prp name="initialhash" type="H" value="7409F91A"/>
+					<Prp name="initialheight" type="I" value="81"/>
+					<Prp name="initialleft" type="I" value="26"/>
+					<Prp name="initialtop" type="I" value="589"/>
+					<Prp name="initialwidth" type="I" value="321"/>
+					<Prp name="selectionheight" type="I" value="81"/>
+					<Prp name="selectionleft" type="I" value="26"/>
+					<Prp name="selectiontop" type="I" value="589"/>
+					<Prp name="selectionwidth" type="I" value="321"/>
+				</Node>
+				<Prp name="caption" type="S" value="CountofMonteCristoUpdate_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item7">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_CountofMonteCristo_2.png"/>
+					<Prp name="initialhash" type="H" value="E1BB3587"/>
+					<Prp name="initialheight" type="I" value="81"/>
+					<Prp name="initialleft" type="I" value="26"/>
+					<Prp name="initialtop" type="I" value="589"/>
+					<Prp name="initialwidth" type="I" value="321"/>
+					<Prp name="selectionheight" type="I" value="81"/>
+					<Prp name="selectionleft" type="I" value="26"/>
+					<Prp name="selectiontop" type="I" value="589"/>
+					<Prp name="selectionwidth" type="I" value="321"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_CountofMonteCristo_2"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item8">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Search_SM_N910T.png"/>
+					<Prp name="initialhash" type="H" value="DAA22803"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialleft" type="I" value="768"/>
+					<Prp name="initialtop" type="I" value="100"/>
+					<Prp name="initialwidth" type="I" value="224"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectionleft" type="I" value="768"/>
+					<Prp name="selectiontop" type="I" value="100"/>
+					<Prp name="selectionwidth" type="I" value="224"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Search_SM_N910T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item9">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Search_SM_N910T_Image.png"/>
+					<Prp name="initialhash" type="H" value="DAA22803"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialleft" type="I" value="768"/>
+					<Prp name="initialtop" type="I" value="100"/>
+					<Prp name="initialwidth" type="I" value="224"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectionleft" type="I" value="768"/>
+					<Prp name="selectiontop" type="I" value="100"/>
+					<Prp name="selectionwidth" type="I" value="224"/>
+				</Node>
+				<Prp name="caption" type="S" value="Search_SM_N910T_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Prp name="item count" type="I" value="21"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{CCCE9D2B-45AD-44E6-8135-3817E951BEFA}"/>
+		<Prp name="signature" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="typename" type="S" value="Image Set"/>
+		<Prp name="version" type="I" value="100"/>
+	</Node>
+</Nodes>

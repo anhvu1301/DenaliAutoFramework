@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1288"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="NameMapping[&quot;Sys&quot;][&quot;Process&quot;](&quot;DIoms&quot;)[&quot;WinFormsObject&quot;](&quot;FrmMain&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="41250.5719374884"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys[&quot;Process&quot;](&quot;DIoms&quot;)[&quot;WinFormsObject&quot;](&quot;FrmMain&quot;)[&quot;XtraMainMenu&quot;]"/>
+			<Prp name="date" type="D" value="41250.5719414236"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The menu item 'Demand|Manage Raw Customer Payment' was clicked."/>
+			<Prp name="line no" type="I" value="21"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{8FDBB1C0-43A7-4507-B1EB-E8F2FCD56744}"/>
+			<Prp name="unit 1" type="S" value="{BB93166E-03EB-4D2D-A7C3-DE8F63E6820D}"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="110"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object left" type="I" value="232"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1270"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="click point y" type="I" value="93"/>
+					<Prp name="object name" type="S" value="NameMapping[&quot;Sys&quot;][&quot;Process&quot;](&quot;DIoms&quot;)[&quot;WinFormsObject&quot;](&quot;FrmMain&quot;)[&quot;WinFormsObject&quot;](&quot;MdiClient&quot;, &quot;&quot;)[&quot;WinFormsObject&quot;](&quot;Manage Raw Customer Payment&quot;)[&quot;WinFormsObject&quot;](&quot;UCManagementRawRemittanceAdvice&quot;)[&quot;WinFormsObject&quot;](&quot;BarDockControl&quot;, &quot;&quot;, 6)[&quot;WinFormsObject&quot;](&quot;DockedBarControl&quot;, &quot;&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="76"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="262"/>
+					<Prp name="datetime" type="D" value="41250.5719842014"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (30, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys[&quot;Process&quot;](&quot;DIoms&quot;)[&quot;WinFormsObject&quot;](&quot;FrmMain&quot;)[&quot;WinFormsObject&quot;](&quot;MdiClient&quot;, &quot;&quot;)[&quot;WinFormsObject&quot;](&quot;Manage Raw Customer Payment&quot;)[&quot;WinFormsObject&quot;](&quot;UCManagementRawRemittanceAdvice&quot;)[&quot;WinFormsObject&quot;](&quot;BarDockControl&quot;, &quot;&quot;, 6)[&quot;WinFormsObject&quot;](&quot;DockedBarControl&quot;, &quot;&quot;)"/>
+			<Prp name="date" type="D" value="41250.5719855787"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="22"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="172"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="object left" type="I" value="555"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="630"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="click point y" type="I" value="157"/>
+					<Prp name="object name" type="S" value="NameMapping[&quot;Sys&quot;][&quot;Process&quot;](&quot;DIoms&quot;)[&quot;WinFormsObject&quot;](&quot;FrmMain&quot;)[&quot;WinFormsObject&quot;](&quot;MdiClient&quot;, &quot;&quot;)[&quot;WinFormsObject&quot;](&quot;Manage Raw Customer Payment&quot;)[&quot;WinFormsObject&quot;](&quot;UCManagementRawRemittanceAdvice&quot;)[&quot;WinFormsObject&quot;](&quot;panelControl&quot;)[&quot;WinFormsObject&quot;](&quot;gcFilter&quot;)[&quot;WinFormsObject&quot;](&quot;sbFilter&quot;)"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="143"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="592"/>
+					<Prp name="datetime" type="D" value="41250.5719748611"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (37, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys[&quot;Process&quot;](&quot;DIoms&quot;)[&quot;WinFormsObject&quot;](&quot;FrmMain&quot;)[&quot;WinFormsObject&quot;](&quot;MdiClient&quot;, &quot;&quot;)[&quot;WinFormsObject&quot;](&quot;Manage Raw Customer Payment&quot;)[&quot;WinFormsObject&quot;](&quot;UCManagementRawRemittanceAdvice&quot;)[&quot;WinFormsObject&quot;](&quot;panelControl&quot;)[&quot;WinFormsObject&quot;](&quot;gcFilter&quot;)[&quot;WinFormsObject&quot;](&quot;sbFilter&quot;)"/>
+			<Prp name="date" type="D" value="41250.5719762384"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="24"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="child data"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

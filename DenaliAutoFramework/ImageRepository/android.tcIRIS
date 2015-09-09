@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="config">
+			<Prp name="node name" type="S" value="android"/>
+		</Node>
+		<Node name="data">
+			<Node name="item0">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\Phandora_Create_Sta.png"/>
+					<Prp name="initialhash" type="H" value="3A564F21"/>
+					<Prp name="initialheight" type="I" value="120"/>
+					<Prp name="initialleft" type="I" value="116"/>
+					<Prp name="initialtop" type="I" value="242"/>
+					<Prp name="initialwidth" type="I" value="604"/>
+					<Prp name="selectionheight" type="I" value="120"/>
+					<Prp name="selectionleft" type="I" value="116"/>
+					<Prp name="selectiontop" type="I" value="242"/>
+					<Prp name="selectionwidth" type="I" value="604"/>
+				</Node>
+				<Prp name="caption" type="S" value="Phandora_Create_Sta"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item1">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\CheckPoint_Pandora_Playbutton.png"/>
+					<Prp name="initialhash" type="H" value="E4CF278E"/>
+					<Prp name="initialheight" type="I" value="160"/>
+					<Prp name="initialleft" type="I" value="360"/>
+					<Prp name="initialtop" type="I" value="1120"/>
+					<Prp name="initialwidth" type="I" value="160"/>
+					<Prp name="selectionheight" type="I" value="160"/>
+					<Prp name="selectionleft" type="I" value="360"/>
+					<Prp name="selectiontop" type="I" value="1120"/>
+					<Prp name="selectionwidth" type="I" value="160"/>
+				</Node>
+				<Prp name="caption" type="S" value="CheckPoint_Pandora_Playbutton"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Prp name="item count" type="I" value="2"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{EEBD78C1-DAAE-4AF8-B947-0F024E80425B}"/>
+		<Prp name="signature" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="typename" type="S" value="Image Set"/>
+		<Prp name="version" type="I" value="100"/>
+	</Node>
+</Nodes>

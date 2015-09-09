@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{47385ad5-8764-456f-975b-570ff12ab40a}">
+				<Node name="variables"/>
+			</Node>
+			<Node name="{ce6e8e2b-f3a5-45b9-bcb2-83c21de00536}">
+				<Node name="{e65fdca2-acac-4375-aec4-be47231f71ab}">
+					<Prp name="filepath" type="S" value="C:\Program Files (x86)\Internet Explorer\"/>
+				</Node>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{66AF6D6F-ACF9-4FF2-A8D9-5F77458BCD51}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav3">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="43003A005C0041006E0068002000560075005C004100750074006F006D006100690074006F006E005C00440065006E0061006C0069004100750074006F004600720061006D00650077006F0072006B005C00440065006E0061006C0069004100750074006F004600720061006D00650077006F0072006B005C00440065006E0061006C00690031002E0078006C007300"/>
+						</Node>
+						<Prp name="name" type="S" value="parrentExcel"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5400650073007400"/>
+						</Node>
+						<Prp name="name" type="S" value="parentSheet"/>
+					</Node>
+					<Node name="var2">
+						<Prp name="name" type="S" value="startTime"/>
+					</Node>
+					<Node name="var3">
+						<Prp name="name" type="S" value="DataUsage"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="3"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>

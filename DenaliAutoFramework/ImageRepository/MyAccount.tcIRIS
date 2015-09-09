@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="config">
+			<Prp name="node name" type="S" value="MyAccount"/>
+		</Node>
+		<Node name="data">
+			<Node name="item0">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_MyAccount.png"/>
+					<Prp name="initialhash" type="H" value="870F28C1"/>
+					<Prp name="initialheight" type="I" value="440"/>
+					<Prp name="initialleft" type="I" value="730"/>
+					<Prp name="initialtop" type="I" value="1028"/>
+					<Prp name="initialwidth" type="I" value="340"/>
+					<Prp name="selectionheight" type="I" value="440"/>
+					<Prp name="selectionleft" type="I" value="730"/>
+					<Prp name="selectiontop" type="I" value="1028"/>
+					<Prp name="selectionwidth" type="I" value="340"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_MyAccount"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item1">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\MyAccount_Image.png"/>
+					<Prp name="initialhash" type="H" value="7CB66176"/>
+					<Prp name="initialheight" type="I" value="440"/>
+					<Prp name="initialleft" type="I" value="730"/>
+					<Prp name="initialtop" type="I" value="1028"/>
+					<Prp name="initialwidth" type="I" value="340"/>
+					<Prp name="selectionheight" type="I" value="440"/>
+					<Prp name="selectionleft" type="I" value="730"/>
+					<Prp name="selectiontop" type="I" value="1028"/>
+					<Prp name="selectionwidth" type="I" value="340"/>
+				</Node>
+				<Prp name="caption" type="S" value="MyAccount_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item10">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_PopupOpenTMAccount.png"/>
+					<Prp name="initialhash" type="H" value="FA7C9376"/>
+					<Prp name="initialheight" type="I" value="177"/>
+					<Prp name="initialleft" type="I" value="92"/>
+					<Prp name="initialtop" type="I" value="1473"/>
+					<Prp name="initialwidth" type="I" value="1256"/>
+					<Prp name="selectionheight" type="I" value="177"/>
+					<Prp name="selectionleft" type="I" value="92"/>
+					<Prp name="selectiontop" type="I" value="1473"/>
+					<Prp name="selectionwidth" type="I" value="1256"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_PopupOpenTMAccount"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item11">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Open_TMMyAccount_Image.png"/>
+					<Prp name="initialhash" type="H" value="FA7C9376"/>
+					<Prp name="initialheight" type="I" value="177"/>
+					<Prp name="initialleft" type="I" value="92"/>
+					<Prp name="initialtop" type="I" value="1473"/>
+					<Prp name="initialwidth" type="I" value="1256"/>
+					<Prp name="selectionheight" type="I" value="177"/>
+					<Prp name="selectionleft" type="I" value="92"/>
+					<Prp name="selectiontop" type="I" value="1473"/>
+					<Prp name="selectionwidth" type="I" value="1256"/>
+				</Node>
+				<Prp name="caption" type="S" value="Open_TMMyAccount_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item12">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\DeviceHealth_Imange.png"/>
+					<Prp name="initialhash" type="H" value="F02110F7"/>
+					<Prp name="initialheight" type="I" value="268"/>
+					<Prp name="initialleft" type="I" value="766"/>
+					<Prp name="initialtop" type="I" value="731"/>
+					<Prp name="initialwidth" type="I" value="636"/>
+					<Prp name="selectionheight" type="I" value="268"/>
+					<Prp name="selectionleft" type="I" value="766"/>
+					<Prp name="selectiontop" type="I" value="731"/>
+					<Prp name="selectionwidth" type="I" value="636"/>
+				</Node>
+				<Prp name="caption" type="S" value="DeviceHealth_Imange"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item13">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\DeviceHealth_Image.png"/>
+					<Prp name="initialhash" type="H" value="56B09185"/>
+					<Prp name="initialheight" type="I" value="142"/>
+					<Prp name="initialleft" type="I" value="798"/>
+					<Prp name="initialtop" type="I" value="1015"/>
+					<Prp name="initialwidth" type="I" value="520"/>
+					<Prp name="selectionheight" type="I" value="142"/>
+					<Prp name="selectionleft" type="I" value="798"/>
+					<Prp name="selectiontop" type="I" value="1015"/>
+					<Prp name="selectionwidth" type="I" value="520"/>
+				</Node>
+				<Prp name="caption" type="S" value="DeviceHealth_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item14">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DeviceHealth.png"/>
+					<Prp name="initialhash" type="H" value="56B09185"/>
+					<Prp name="initialheight" type="I" value="142"/>
+					<Prp name="initialleft" type="I" value="798"/>
+					<Prp name="initialtop" type="I" value="1015"/>
+					<Prp name="initialwidth" type="I" value="520"/>
+					<Prp name="selectionheight" type="I" value="142"/>
+					<Prp name="selectionleft" type="I" value="798"/>
+					<Prp name="selectiontop" type="I" value="1015"/>
+					<Prp name="selectionwidth" type="I" value="520"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DeviceHealth"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item15">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_OverallDeviceHealth.png"/>
+					<Prp name="initialhash" type="H" value="71ED572C"/>
+					<Prp name="initialheight" type="I" value="139"/>
+					<Prp name="initialleft" type="I" value="76"/>
+					<Prp name="initialtop" type="I" value="569"/>
+					<Prp name="initialwidth" type="I" value="1000"/>
+					<Prp name="selectionheight" type="I" value="139"/>
+					<Prp name="selectionleft" type="I" value="76"/>
+					<Prp name="selectiontop" type="I" value="569"/>
+					<Prp name="selectionwidth" type="I" value="1000"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_OverallDeviceHealth"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item16">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_RateMyAccount.png"/>
+					<Prp name="initialhash" type="H" value="48E17F69"/>
+					<Prp name="initialheight" type="I" value="161"/>
+					<Prp name="initialleft" type="I" value="84"/>
+					<Prp name="initialtop" type="I" value="784"/>
+					<Prp name="initialwidth" type="I" value="1272"/>
+					<Prp name="selectionheight" type="I" value="161"/>
+					<Prp name="selectionleft" type="I" value="84"/>
+					<Prp name="selectiontop" type="I" value="784"/>
+					<Prp name="selectionwidth" type="I" value="1272"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_RateMyAccount"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item17">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\rateMyaccount_NoThanks_Image.png"/>
+					<Prp name="initialhash" type="H" value="E8BD629B"/>
+					<Prp name="initialheight" type="I" value="91"/>
+					<Prp name="initialleft" type="I" value="124"/>
+					<Prp name="initialtop" type="I" value="1745"/>
+					<Prp name="initialwidth" type="I" value="1132"/>
+					<Prp name="selectionheight" type="I" value="91"/>
+					<Prp name="selectionleft" type="I" value="124"/>
+					<Prp name="selectiontop" type="I" value="1745"/>
+					<Prp name="selectionwidth" type="I" value="1132"/>
+				</Node>
+				<Prp name="caption" type="S" value="rateMyaccount_NoThanks_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item18">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\AccountInfor_Image.png"/>
+					<Prp name="initialhash" type="H" value="FF767B4E"/>
+					<Prp name="initialheight" type="I" value="132"/>
+					<Prp name="initialleft" type="I" value="485"/>
+					<Prp name="initialtop" type="I" value="320"/>
+					<Prp name="initialwidth" type="I" value="475"/>
+					<Prp name="selectionheight" type="I" value="132"/>
+					<Prp name="selectionleft" type="I" value="485"/>
+					<Prp name="selectiontop" type="I" value="320"/>
+					<Prp name="selectionwidth" type="I" value="475"/>
+				</Node>
+				<Prp name="caption" type="S" value="AccountInfor_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item19">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\DeviceHelp_OverallDeviceHealth_Image.png"/>
+					<Prp name="initialhash" type="H" value="3628577F"/>
+					<Prp name="initialheight" type="I" value="132"/>
+					<Prp name="initialleft" type="I" value="965"/>
+					<Prp name="initialtop" type="I" value="320"/>
+					<Prp name="initialwidth" type="I" value="475"/>
+					<Prp name="selectionheight" type="I" value="132"/>
+					<Prp name="selectionleft" type="I" value="965"/>
+					<Prp name="selectiontop" type="I" value="320"/>
+					<Prp name="selectionwidth" type="I" value="475"/>
+				</Node>
+				<Prp name="caption" type="S" value="DeviceHelp_OverallDeviceHealth_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item2">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_TMMyaccount.png"/>
+					<Prp name="initialhash" type="H" value="7CB66176"/>
+					<Prp name="initialheight" type="I" value="440"/>
+					<Prp name="initialleft" type="I" value="730"/>
+					<Prp name="initialtop" type="I" value="1028"/>
+					<Prp name="initialwidth" type="I" value="340"/>
+					<Prp name="selectionheight" type="I" value="440"/>
+					<Prp name="selectionleft" type="I" value="730"/>
+					<Prp name="selectiontop" type="I" value="1028"/>
+					<Prp name="selectionwidth" type="I" value="340"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_TMMyaccount"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item20">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\DeviceHealth_Overall.png"/>
+					<Prp name="initialhash" type="H" value="8D466EA4"/>
+					<Prp name="initialheight" type="I" value="132"/>
+					<Prp name="initialleft" type="I" value="965"/>
+					<Prp name="initialtop" type="I" value="320"/>
+					<Prp name="initialwidth" type="I" value="475"/>
+					<Prp name="selectionheight" type="I" value="132"/>
+					<Prp name="selectionleft" type="I" value="965"/>
+					<Prp name="selectiontop" type="I" value="320"/>
+					<Prp name="selectionwidth" type="I" value="475"/>
+				</Node>
+				<Prp name="caption" type="S" value="DeviceHealth_Overall"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item21">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Refesh_DeviceHealth_Image.png"/>
+					<Prp name="initialhash" type="H" value="51F4F8D1"/>
+					<Prp name="initialheight" type="I" value="190"/>
+					<Prp name="initialleft" type="I" value="1010"/>
+					<Prp name="initialtop" type="I" value="101"/>
+					<Prp name="initialwidth" type="I" value="158"/>
+					<Prp name="selectionheight" type="I" value="190"/>
+					<Prp name="selectionleft" type="I" value="1010"/>
+					<Prp name="selectiontop" type="I" value="101"/>
+					<Prp name="selectionwidth" type="I" value="158"/>
+				</Node>
+				<Prp name="caption" type="S" value="Refesh_DeviceHealth_Image"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item22">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Red_Refesh.png"/>
+					<Prp name="initialhash" type="H" value="FAC03ED5"/>
+					<Prp name="initialheight" type="I" value="190"/>
+					<Prp name="initialleft" type="I" value="1010"/>
+					<Prp name="initialtop" type="I" value="101"/>
+					<Prp name="initialwidth" type="I" value="158"/>
+					<Prp name="selectionheight" type="I" value="190"/>
+					<Prp name="selectionleft" type="I" value="1010"/>
+					<Prp name="selectiontop" type="I" value="101"/>
+					<Prp name="selectionwidth" type="I" value="158"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Red_Refesh"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item23">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Red_Refesh_Image.png"/>
+					<Prp name="initialhash" type="H" value="FAC03ED5"/>
+					<Prp name="initialheight" type="I" value="190"/>
+					<Prp name="initialleft" type="I" value="1010"/>
+					<Prp name="initialtop" type="I" value="101"/>
+					<Prp name="initialwidth" type="I" value="158"/>
+					<Prp name="selectionheight" type="I" value="190"/>
+					<Prp name="selectionleft" type="I" value="1010"/>
+					<Prp name="selectiontop" type="I" value="101"/>
+					<Prp name="selectionwidth" type="I" value="158"/>
+				</Node>
+				<Prp name="caption" type="S" value="Red_Refesh_Image"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item24">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Account_In.png"/>
+					<Prp name="initialhash" type="H" value="5FBBB201"/>
+					<Prp name="initialheight" type="I" value="142"/>
+					<Prp name="initialleft" type="I" value="71"/>
+					<Prp name="initialtop" type="I" value="1015"/>
+					<Prp name="initialwidth" type="I" value="520"/>
+					<Prp name="selectionheight" type="I" value="142"/>
+					<Prp name="selectionleft" type="I" value="71"/>
+					<Prp name="selectiontop" type="I" value="1015"/>
+					<Prp name="selectionwidth" type="I" value="520"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Account_In"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item25">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\Account_Info_Image.png"/>
+					<Prp name="initialhash" type="H" value="5FBBB201"/>
+					<Prp name="initialheight" type="I" value="142"/>
+					<Prp name="initialleft" type="I" value="71"/>
+					<Prp name="initialtop" type="I" value="1015"/>
+					<Prp name="initialwidth" type="I" value="520"/>
+					<Prp name="selectionheight" type="I" value="142"/>
+					<Prp name="selectionleft" type="I" value="71"/>
+					<Prp name="selectiontop" type="I" value="1015"/>
+					<Prp name="selectionwidth" type="I" value="520"/>
+				</Node>
+				<Prp name="caption" type="S" value="Account_Info_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item26">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_My_Account_Display.png"/>
+					<Prp name="initialhash" type="H" value="825DF778"/>
+					<Prp name="initialheight" type="I" value="163"/>
+					<Prp name="initialleft" type="I" value="12"/>
+					<Prp name="initialtop" type="I" value="513"/>
+					<Prp name="initialwidth" type="I" value="540"/>
+					<Prp name="selectionheight" type="I" value="163"/>
+					<Prp name="selectionleft" type="I" value="12"/>
+					<Prp name="selectiontop" type="I" value="513"/>
+					<Prp name="selectionwidth" type="I" value="540"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_My_Account_Display"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item27">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DDC_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="4D174019"/>
+					<Prp name="initialheight" type="I" value="36"/>
+					<Prp name="initialtop" type="I" value="56"/>
+					<Prp name="initialwidth" type="I" value="540"/>
+					<Prp name="selectionheight" type="I" value="36"/>
+					<Prp name="selectiontop" type="I" value="56"/>
+					<Prp name="selectionwidth" type="I" value="540"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DDC_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item28">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\DDC_Next_SM_G386T_Image.png"/>
+					<Prp name="initialhash" type="H" value="98667016"/>
+					<Prp name="initialheight" type="I" value="45"/>
+					<Prp name="initialleft" type="I" value="275"/>
+					<Prp name="initialtop" type="I" value="879"/>
+					<Prp name="initialwidth" type="I" value="229"/>
+					<Prp name="selectionheight" type="I" value="45"/>
+					<Prp name="selectionleft" type="I" value="275"/>
+					<Prp name="selectiontop" type="I" value="879"/>
+					<Prp name="selectionwidth" type="I" value="229"/>
+				</Node>
+				<Prp name="caption" type="S" value="DDC_Next_SM_G386T_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item29">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_ConnectionAssistant_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="95D69C15"/>
+					<Prp name="initialheight" type="I" value="36"/>
+					<Prp name="initialtop" type="I" value="56"/>
+					<Prp name="initialwidth" type="I" value="540"/>
+					<Prp name="selectionheight" type="I" value="36"/>
+					<Prp name="selectiontop" type="I" value="56"/>
+					<Prp name="selectionwidth" type="I" value="540"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_ConnectionAssistant_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item3">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DeviceDataCollection.png"/>
+					<Prp name="initialhash" type="H" value="90C5B5C3"/>
+					<Prp name="initialheight" type="I" value="91"/>
+					<Prp name="initialtop" type="I" value="148"/>
+					<Prp name="initialwidth" type="I" value="1440"/>
+					<Prp name="selectionheight" type="I" value="91"/>
+					<Prp name="selectiontop" type="I" value="148"/>
+					<Prp name="selectionwidth" type="I" value="1440"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DeviceDataCollection"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item30">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\ConnectionAssistant_Accept_SM_G385T_Image.png"/>
+					<Prp name="initialhash" type="H" value="20287EC4"/>
+					<Prp name="initialheight" type="I" value="45"/>
+					<Prp name="initialleft" type="I" value="275"/>
+					<Prp name="initialtop" type="I" value="879"/>
+					<Prp name="initialwidth" type="I" value="229"/>
+					<Prp name="selectionheight" type="I" value="45"/>
+					<Prp name="selectionleft" type="I" value="275"/>
+					<Prp name="selectiontop" type="I" value="879"/>
+					<Prp name="selectionwidth" type="I" value="229"/>
+				</Node>
+				<Prp name="caption" type="S" value="ConnectionAssistant_Accept_SM_G385T_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item31">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_SpecialOffers_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="C3B2D9DF"/>
+					<Prp name="initialheight" type="I" value="36"/>
+					<Prp name="initialtop" type="I" value="56"/>
+					<Prp name="initialwidth" type="I" value="540"/>
+					<Prp name="selectionheight" type="I" value="36"/>
+					<Prp name="selectiontop" type="I" value="56"/>
+					<Prp name="selectionwidth" type="I" value="540"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_SpecialOffers_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item32">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\SpecialOffers_Accept_Image_SM_G386T2_Image.png"/>
+					<Prp name="initialhash" type="H" value="20287EC4"/>
+					<Prp name="initialheight" type="I" value="45"/>
+					<Prp name="initialleft" type="I" value="275"/>
+					<Prp name="initialtop" type="I" value="879"/>
+					<Prp name="initialwidth" type="I" value="229"/>
+					<Prp name="selectionheight" type="I" value="45"/>
+					<Prp name="selectionleft" type="I" value="275"/>
+					<Prp name="selectiontop" type="I" value="879"/>
+					<Prp name="selectionwidth" type="I" value="229"/>
+				</Node>
+				<Prp name="caption" type="S" value="SpecialOffers_Accept_Image_SM_G386T2_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item33">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_PopUp_WhatsNew.png"/>
+					<Prp name="initialhash" type="H" value="34213881"/>
+					<Prp name="initialheight" type="I" value="53"/>
+					<Prp name="initialleft" type="I" value="45"/>
+					<Prp name="initialtop" type="I" value="383"/>
+					<Prp name="initialwidth" type="I" value="450"/>
+					<Prp name="selectionheight" type="I" value="53"/>
+					<Prp name="selectionleft" type="I" value="45"/>
+					<Prp name="selectiontop" type="I" value="383"/>
+					<Prp name="selectionwidth" type="I" value="450"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_PopUp_WhatsNew"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item34">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\OpenMyAccount_SM_G386T_Image.png"/>
+					<Prp name="initialhash" type="H" value="BEEC1AF0"/>
+					<Prp name="initialheight" type="I" value="68"/>
+					<Prp name="initialleft" type="I" value="45"/>
+					<Prp name="initialtop" type="I" value="554"/>
+					<Prp name="initialwidth" type="I" value="450"/>
+					<Prp name="selectionheight" type="I" value="68"/>
+					<Prp name="selectionleft" type="I" value="45"/>
+					<Prp name="selectiontop" type="I" value="554"/>
+					<Prp name="selectionwidth" type="I" value="450"/>
+				</Node>
+				<Prp name="caption" type="S" value="OpenMyAccount_SM_G386T_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item35">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Home_MyAccount_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="9EB1CAAC"/>
+					<Prp name="initialheight" type="I" value="44"/>
+					<Prp name="initialleft" type="I" value="26"/>
+					<Prp name="initialtop" type="I" value="52"/>
+					<Prp name="initialwidth" type="I" value="41"/>
+					<Prp name="selectionheight" type="I" value="44"/>
+					<Prp name="selectionleft" type="I" value="26"/>
+					<Prp name="selectiontop" type="I" value="52"/>
+					<Prp name="selectionwidth" type="I" value="41"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Home_MyAccount_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item36">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_MyTMobile_SMG386T.png"/>
+					<Prp name="initialhash" type="H" value="651025EC"/>
+					<Prp name="initialheight" type="I" value="32"/>
+					<Prp name="initialleft" type="I" value="172"/>
+					<Prp name="initialtop" type="I" value="58"/>
+					<Prp name="initialwidth" type="I" value="196"/>
+					<Prp name="selectionheight" type="I" value="32"/>
+					<Prp name="selectionleft" type="I" value="172"/>
+					<Prp name="selectiontop" type="I" value="58"/>
+					<Prp name="selectionwidth" type="I" value="196"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_MyTMobile_SMG386T"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item37">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_refesh_handshake_SMG386T.png"/>
+					<Prp name="initialhash" type="H" value="3034B368"/>
+					<Prp name="initialheight" type="I" value="84"/>
+					<Prp name="initialleft" type="I" value="430"/>
+					<Prp name="initialtop" type="I" value="163"/>
+					<Prp name="initialwidth" type="I" value="90"/>
+					<Prp name="selectionheight" type="I" value="84"/>
+					<Prp name="selectionleft" type="I" value="430"/>
+					<Prp name="selectiontop" type="I" value="163"/>
+					<Prp name="selectionwidth" type="I" value="90"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_refesh_handshake_SMG386T"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item38">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\Refesh_Handshake_SMG386T_Image.png"/>
+					<Prp name="initialhash" type="H" value="3034B368"/>
+					<Prp name="initialheight" type="I" value="84"/>
+					<Prp name="initialleft" type="I" value="430"/>
+					<Prp name="initialtop" type="I" value="163"/>
+					<Prp name="initialwidth" type="I" value="90"/>
+					<Prp name="selectionheight" type="I" value="84"/>
+					<Prp name="selectionleft" type="I" value="430"/>
+					<Prp name="selectiontop" type="I" value="163"/>
+					<Prp name="selectionwidth" type="I" value="90"/>
+				</Node>
+				<Prp name="caption" type="S" value="Refesh_Handshake_SMG386T_Image"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item39">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DeviceHealth_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="BABE8469"/>
+					<Prp name="initialheight" type="I" value="53"/>
+					<Prp name="initialleft" type="I" value="300"/>
+					<Prp name="initialtop" type="I" value="381"/>
+					<Prp name="initialwidth" type="I" value="194"/>
+					<Prp name="selectionheight" type="I" value="53"/>
+					<Prp name="selectionleft" type="I" value="300"/>
+					<Prp name="selectiontop" type="I" value="381"/>
+					<Prp name="selectionwidth" type="I" value="194"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DeviceHealth_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item4">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\DeviceDataColection_Next_image.png"/>
+					<Prp name="initialhash" type="H" value="A5A5D24E"/>
+					<Prp name="initialheight" type="I" value="120"/>
+					<Prp name="initialleft" type="I" value="734"/>
+					<Prp name="initialtop" type="I" value="2344"/>
+					<Prp name="initialwidth" type="I" value="610"/>
+					<Prp name="selectionheight" type="I" value="120"/>
+					<Prp name="selectionleft" type="I" value="734"/>
+					<Prp name="selectiontop" type="I" value="2344"/>
+					<Prp name="selectionwidth" type="I" value="610"/>
+				</Node>
+				<Prp name="caption" type="S" value="DeviceDataColection_Next_image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item40">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_AccountInfo_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="F4AE5816"/>
+					<Prp name="initialheight" type="I" value="53"/>
+					<Prp name="initialleft" type="I" value="27"/>
+					<Prp name="initialtop" type="I" value="381"/>
+					<Prp name="initialwidth" type="I" value="194"/>
+					<Prp name="selectionheight" type="I" value="53"/>
+					<Prp name="selectionleft" type="I" value="27"/>
+					<Prp name="selectiontop" type="I" value="381"/>
+					<Prp name="selectionwidth" type="I" value="194"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_AccountInfo_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item41">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Notification_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="56B53075"/>
+					<Prp name="initialheight" type="I" value="53"/>
+					<Prp name="initialleft" type="I" value="27"/>
+					<Prp name="initialtop" type="I" value="567"/>
+					<Prp name="initialwidth" type="I" value="194"/>
+					<Prp name="selectionheight" type="I" value="53"/>
+					<Prp name="selectionleft" type="I" value="27"/>
+					<Prp name="selectiontop" type="I" value="567"/>
+					<Prp name="selectionwidth" type="I" value="194"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Notification_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item42">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\DeviceHealth_SMG38T_Image.png"/>
+					<Prp name="initialhash" type="H" value="6C926636"/>
+					<Prp name="initialheight" type="I" value="53"/>
+					<Prp name="initialleft" type="I" value="300"/>
+					<Prp name="initialtop" type="I" value="390"/>
+					<Prp name="initialwidth" type="I" value="194"/>
+					<Prp name="selectionheight" type="I" value="53"/>
+					<Prp name="selectionleft" type="I" value="300"/>
+					<Prp name="selectiontop" type="I" value="390"/>
+					<Prp name="selectionwidth" type="I" value="194"/>
+				</Node>
+				<Prp name="caption" type="S" value="DeviceHealth_SMG38T_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item43">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DeviceHealth_update_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="6C926636"/>
+					<Prp name="initialheight" type="I" value="53"/>
+					<Prp name="initialleft" type="I" value="300"/>
+					<Prp name="initialtop" type="I" value="390"/>
+					<Prp name="initialwidth" type="I" value="194"/>
+					<Prp name="selectionheight" type="I" value="53"/>
+					<Prp name="selectionleft" type="I" value="300"/>
+					<Prp name="selectiontop" type="I" value="390"/>
+					<Prp name="selectionwidth" type="I" value="194"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DeviceHealth_update_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item44">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_handshake_Refesh_update_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="83B76D8B"/>
+					<Prp name="initialheight" type="I" value="84"/>
+					<Prp name="initialleft" type="I" value="430"/>
+					<Prp name="initialtop" type="I" value="172"/>
+					<Prp name="initialwidth" type="I" value="90"/>
+					<Prp name="selectionheight" type="I" value="84"/>
+					<Prp name="selectionleft" type="I" value="430"/>
+					<Prp name="selectiontop" type="I" value="172"/>
+					<Prp name="selectionwidth" type="I" value="90"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_handshake_Refesh_update_SM_G386T"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item45">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\Refesh_update_SM_G386T_Image.png"/>
+					<Prp name="initialhash" type="H" value="83B76D8B"/>
+					<Prp name="initialheight" type="I" value="84"/>
+					<Prp name="initialleft" type="I" value="430"/>
+					<Prp name="initialtop" type="I" value="172"/>
+					<Prp name="initialwidth" type="I" value="90"/>
+					<Prp name="selectionheight" type="I" value="84"/>
+					<Prp name="selectionleft" type="I" value="430"/>
+					<Prp name="selectiontop" type="I" value="172"/>
+					<Prp name="selectionwidth" type="I" value="90"/>
+				</Node>
+				<Prp name="caption" type="S" value="Refesh_update_SM_G386T_Image"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item46">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_OverallDeviceHealth_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="92C4B4CD"/>
+					<Prp name="initialheight" type="I" value="52"/>
+					<Prp name="initialleft" type="I" value="29"/>
+					<Prp name="initialtop" type="I" value="224"/>
+					<Prp name="initialwidth" type="I" value="376"/>
+					<Prp name="selectionheight" type="I" value="52"/>
+					<Prp name="selectionleft" type="I" value="29"/>
+					<Prp name="selectiontop" type="I" value="224"/>
+					<Prp name="selectionwidth" type="I" value="376"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_OverallDeviceHealth_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item47">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Diagnosticsisinprogress_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="594272B2"/>
+					<Prp name="initialheight" type="I" value="24"/>
+					<Prp name="initialleft" type="I" value="29"/>
+					<Prp name="initialtop" type="I" value="358"/>
+					<Prp name="initialwidth" type="I" value="482"/>
+					<Prp name="selectionheight" type="I" value="24"/>
+					<Prp name="selectionleft" type="I" value="29"/>
+					<Prp name="selectiontop" type="I" value="358"/>
+					<Prp name="selectionwidth" type="I" value="482"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Diagnosticsisinprogress_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item48">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DeviceHealthCheckSign_SMG386T.png"/>
+					<Prp name="initialhash" type="H" value="5706275A"/>
+					<Prp name="initialheight" type="I" value="29"/>
+					<Prp name="initialleft" type="I" value="466"/>
+					<Prp name="initialtop" type="I" value="506"/>
+					<Prp name="initialwidth" type="I" value="20"/>
+					<Prp name="selectionheight" type="I" value="29"/>
+					<Prp name="selectionleft" type="I" value="466"/>
+					<Prp name="selectiontop" type="I" value="506"/>
+					<Prp name="selectionwidth" type="I" value="20"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DeviceHealthCheckSign_SMG386T"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item49">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_BluetoothPermission_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="37A2C368"/>
+					<Prp name="initialheight" type="I" value="37"/>
+					<Prp name="initialleft" type="I" value="46"/>
+					<Prp name="initialtop" type="I" value="384"/>
+					<Prp name="initialwidth" type="I" value="448"/>
+					<Prp name="selectionheight" type="I" value="37"/>
+					<Prp name="selectionleft" type="I" value="46"/>
+					<Prp name="selectiontop" type="I" value="384"/>
+					<Prp name="selectionwidth" type="I" value="448"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_BluetoothPermission_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item5">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_ConnectionAssistant.png"/>
+					<Prp name="initialhash" type="H" value="40777D13"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialtop" type="I" value="100"/>
+					<Prp name="initialwidth" type="I" value="1440"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectiontop" type="I" value="100"/>
+					<Prp name="selectionwidth" type="I" value="1440"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_ConnectionAssistant"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item50">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\Bluetooth_Yes_Image.png"/>
+					<Prp name="initialhash" type="H" value="CCC24511"/>
+					<Prp name="initialheight" type="I" value="75"/>
+					<Prp name="initialleft" type="I" value="271"/>
+					<Prp name="initialtop" type="I" value="556"/>
+					<Prp name="initialwidth" type="I" value="255"/>
+					<Prp name="selectionheight" type="I" value="75"/>
+					<Prp name="selectionleft" type="I" value="271"/>
+					<Prp name="selectiontop" type="I" value="556"/>
+					<Prp name="selectionwidth" type="I" value="255"/>
+				</Node>
+				<Prp name="caption" type="S" value="Bluetooth_Yes_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item51">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_DDC_SM_G386T_4_6.png"/>
+					<Prp name="initialhash" type="H" value="4D174019"/>
+					<Prp name="initialheight" type="I" value="36"/>
+					<Prp name="initialtop" type="I" value="56"/>
+					<Prp name="initialwidth" type="I" value="540"/>
+					<Prp name="selectionheight" type="I" value="36"/>
+					<Prp name="selectiontop" type="I" value="56"/>
+					<Prp name="selectionwidth" type="I" value="540"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_DDC_SM_G386T_4_6"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item52">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\DDC_Next_SM_G386T_4_6_Image.png"/>
+					<Prp name="initialhash" type="H" value="98667016"/>
+					<Prp name="initialheight" type="I" value="45"/>
+					<Prp name="initialleft" type="I" value="275"/>
+					<Prp name="initialtop" type="I" value="879"/>
+					<Prp name="initialwidth" type="I" value="229"/>
+					<Prp name="selectionheight" type="I" value="45"/>
+					<Prp name="selectionleft" type="I" value="275"/>
+					<Prp name="selectiontop" type="I" value="879"/>
+					<Prp name="selectionwidth" type="I" value="229"/>
+				</Node>
+				<Prp name="caption" type="S" value="DDC_Next_SM_G386T_4_6_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item53">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_ConnectionAssistant_SM_G386T_4_6.png"/>
+					<Prp name="initialhash" type="H" value="95D69C15"/>
+					<Prp name="initialheight" type="I" value="36"/>
+					<Prp name="initialtop" type="I" value="56"/>
+					<Prp name="initialwidth" type="I" value="540"/>
+					<Prp name="selectionheight" type="I" value="36"/>
+					<Prp name="selectiontop" type="I" value="56"/>
+					<Prp name="selectionwidth" type="I" value="540"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_ConnectionAssistant_SM_G386T_4_6"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item54">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\Connection_Assistant_SM_G386T_4_6_Image.png"/>
+					<Prp name="initialhash" type="H" value="20287EC4"/>
+					<Prp name="initialheight" type="I" value="45"/>
+					<Prp name="initialleft" type="I" value="275"/>
+					<Prp name="initialtop" type="I" value="879"/>
+					<Prp name="initialwidth" type="I" value="229"/>
+					<Prp name="selectionheight" type="I" value="45"/>
+					<Prp name="selectionleft" type="I" value="275"/>
+					<Prp name="selectiontop" type="I" value="879"/>
+					<Prp name="selectionwidth" type="I" value="229"/>
+				</Node>
+				<Prp name="caption" type="S" value="Connection_Assistant_SM_G386T_4_6_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item55">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_SpecialOffers_SM_G386T_4_6.png"/>
+					<Prp name="initialhash" type="H" value="C3B2D9DF"/>
+					<Prp name="initialheight" type="I" value="36"/>
+					<Prp name="initialtop" type="I" value="56"/>
+					<Prp name="initialwidth" type="I" value="540"/>
+					<Prp name="selectionheight" type="I" value="36"/>
+					<Prp name="selectiontop" type="I" value="56"/>
+					<Prp name="selectionwidth" type="I" value="540"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_SpecialOffers_SM_G386T_4_6"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item56">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\SpOf_Accept_SM_G386T_5_6_Image.png"/>
+					<Prp name="initialhash" type="H" value="20287EC4"/>
+					<Prp name="initialheight" type="I" value="45"/>
+					<Prp name="initialleft" type="I" value="275"/>
+					<Prp name="initialtop" type="I" value="879"/>
+					<Prp name="initialwidth" type="I" value="229"/>
+					<Prp name="selectionheight" type="I" value="45"/>
+					<Prp name="selectionleft" type="I" value="275"/>
+					<Prp name="selectiontop" type="I" value="879"/>
+					<Prp name="selectionwidth" type="I" value="229"/>
+				</Node>
+				<Prp name="caption" type="S" value="SpOf_Accept_SM_G386T_5_6_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item57">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_HOME_SM_G386T_4_6.png"/>
+					<Prp name="initialhash" type="H" value="9EB1CAAC"/>
+					<Prp name="initialheight" type="I" value="44"/>
+					<Prp name="initialleft" type="I" value="26"/>
+					<Prp name="initialtop" type="I" value="52"/>
+					<Prp name="initialwidth" type="I" value="41"/>
+					<Prp name="selectionheight" type="I" value="44"/>
+					<Prp name="selectionleft" type="I" value="26"/>
+					<Prp name="selectiontop" type="I" value="52"/>
+					<Prp name="selectionwidth" type="I" value="41"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_HOME_SM_G386T_4_6"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item58">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Notification_SM_G386T_4_6.png"/>
+					<Prp name="initialhash" type="H" value="52158ADD"/>
+					<Prp name="initialheight" type="I" value="53"/>
+					<Prp name="initialleft" type="I" value="27"/>
+					<Prp name="initialtop" type="I" value="558"/>
+					<Prp name="initialwidth" type="I" value="194"/>
+					<Prp name="selectionheight" type="I" value="53"/>
+					<Prp name="selectionleft" type="I" value="27"/>
+					<Prp name="selectiontop" type="I" value="558"/>
+					<Prp name="selectionwidth" type="I" value="194"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Notification_SM_G386T_4_6"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item59">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\CP_DeviceHealthCheckSign_SM_G386T_4_6.png"/>
+					<Prp name="initialhash" type="H" value="F198B85A"/>
+					<Prp name="initialheight" type="I" value="24"/>
+					<Prp name="initialleft" type="I" value="214"/>
+					<Prp name="initialtop" type="I" value="364"/>
+					<Prp name="initialwidth" type="I" value="37"/>
+					<Prp name="selectionheight" type="I" value="24"/>
+					<Prp name="selectionleft" type="I" value="214"/>
+					<Prp name="selectiontop" type="I" value="364"/>
+					<Prp name="selectionwidth" type="I" value="37"/>
+				</Node>
+				<Prp name="caption" type="S" value="CP_DeviceHealthCheckSign_SM_G386T_4_6"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item6">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\ConnectionAssistant_Accept_Image.png"/>
+					<Prp name="initialhash" type="H" value="A5513D75"/>
+					<Prp name="initialheight" type="I" value="120"/>
+					<Prp name="initialleft" type="I" value="734"/>
+					<Prp name="initialtop" type="I" value="2344"/>
+					<Prp name="initialwidth" type="I" value="610"/>
+					<Prp name="selectionheight" type="I" value="120"/>
+					<Prp name="selectionleft" type="I" value="734"/>
+					<Prp name="selectiontop" type="I" value="2344"/>
+					<Prp name="selectionwidth" type="I" value="610"/>
+				</Node>
+				<Prp name="caption" type="S" value="ConnectionAssistant_Accept_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item60">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_OverallDH_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="A9A801DD"/>
+					<Prp name="initialheight" type="I" value="52"/>
+					<Prp name="initialleft" type="I" value="29"/>
+					<Prp name="initialtop" type="I" value="215"/>
+					<Prp name="initialwidth" type="I" value="376"/>
+					<Prp name="selectionheight" type="I" value="52"/>
+					<Prp name="selectionleft" type="I" value="29"/>
+					<Prp name="selectiontop" type="I" value="215"/>
+					<Prp name="selectionwidth" type="I" value="376"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_OverallDH_SM_G386T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item61">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_RedDevicehealth.png"/>
+					<Prp name="initialhash" type="H" value="BB5F6279"/>
+					<Prp name="initialheight" type="I" value="71"/>
+					<Prp name="initialleft" type="I" value="379"/>
+					<Prp name="initialtop" type="I" value="38"/>
+					<Prp name="initialwidth" type="I" value="59"/>
+					<Prp name="selectionheight" type="I" value="71"/>
+					<Prp name="selectionleft" type="I" value="379"/>
+					<Prp name="selectiontop" type="I" value="38"/>
+					<Prp name="selectionwidth" type="I" value="59"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_RedDevicehealth"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item62">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_BlackDeviceHealth_SM_G386T.png"/>
+					<Prp name="initialhash" type="H" value="074F3874"/>
+					<Prp name="initialheight" type="I" value="71"/>
+					<Prp name="initialleft" type="I" value="379"/>
+					<Prp name="initialtop" type="I" value="38"/>
+					<Prp name="initialwidth" type="I" value="59"/>
+					<Prp name="selectionheight" type="I" value="71"/>
+					<Prp name="selectionleft" type="I" value="379"/>
+					<Prp name="selectiontop" type="I" value="38"/>
+					<Prp name="selectionwidth" type="I" value="59"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_BlackDeviceHealth_SM_G386T"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item63">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Pandora_MyAccount.png"/>
+					<Prp name="initialhash" type="H" value="5D9628F6"/>
+					<Prp name="initialheight" type="I" value="36"/>
+					<Prp name="initialleft" type="I" value="30"/>
+					<Prp name="initialtop" type="I" value="56"/>
+					<Prp name="initialwidth" type="I" value="183"/>
+					<Prp name="selectionheight" type="I" value="36"/>
+					<Prp name="selectionleft" type="I" value="30"/>
+					<Prp name="selectiontop" type="I" value="56"/>
+					<Prp name="selectionwidth" type="I" value="183"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Pandora_MyAccount"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item64">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Play_Pandora_button.png"/>
+					<Prp name="initialhash" type="H" value="BB09E18B"/>
+					<Prp name="initialheight" type="I" value="120"/>
+					<Prp name="initialleft" type="I" value="270"/>
+					<Prp name="initialtop" type="I" value="840"/>
+					<Prp name="initialwidth" type="I" value="120"/>
+					<Prp name="selectionheight" type="I" value="120"/>
+					<Prp name="selectionleft" type="I" value="270"/>
+					<Prp name="selectiontop" type="I" value="840"/>
+					<Prp name="selectionwidth" type="I" value="120"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Play_Pandora_button"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item65">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Shuffle_Pandora2.png"/>
+					<Prp name="initialhash" type="H" value="5DD6AE95"/>
+					<Prp name="initialheight" type="I" value="36"/>
+					<Prp name="initialleft" type="I" value="99"/>
+					<Prp name="initialtop" type="I" value="299"/>
+					<Prp name="initialwidth" type="I" value="97"/>
+					<Prp name="selectionheight" type="I" value="36"/>
+					<Prp name="selectionleft" type="I" value="99"/>
+					<Prp name="selectiontop" type="I" value="299"/>
+					<Prp name="selectionwidth" type="I" value="97"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Shuffle_Pandora2"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item66">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Pandora_Shuffle1.png"/>
+					<Prp name="initialhash" type="H" value="5DD6AE95"/>
+					<Prp name="initialheight" type="I" value="36"/>
+					<Prp name="initialleft" type="I" value="99"/>
+					<Prp name="initialtop" type="I" value="299"/>
+					<Prp name="initialwidth" type="I" value="97"/>
+					<Prp name="selectionheight" type="I" value="36"/>
+					<Prp name="selectionleft" type="I" value="99"/>
+					<Prp name="selectiontop" type="I" value="299"/>
+					<Prp name="selectionwidth" type="I" value="97"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Pandora_Shuffle1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item67">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-G386T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Device_Health_SM_G386T_4_6.png"/>
+					<Prp name="initialhash" type="H" value="BABE8469"/>
+					<Prp name="initialheight" type="I" value="53"/>
+					<Prp name="initialleft" type="I" value="300"/>
+					<Prp name="initialtop" type="I" value="381"/>
+					<Prp name="initialwidth" type="I" value="194"/>
+					<Prp name="selectionheight" type="I" value="53"/>
+					<Prp name="selectionleft" type="I" value="300"/>
+					<Prp name="selectiontop" type="I" value="381"/>
+					<Prp name="selectionwidth" type="I" value="194"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Device_Health_SM_G386T_4_6"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item68">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Account_Info_N910T.png"/>
+					<Prp name="initialhash" type="H" value="5FBBB201"/>
+					<Prp name="initialheight" type="I" value="142"/>
+					<Prp name="initialleft" type="I" value="71"/>
+					<Prp name="initialtop" type="I" value="1015"/>
+					<Prp name="initialwidth" type="I" value="520"/>
+					<Prp name="selectionheight" type="I" value="142"/>
+					<Prp name="selectionleft" type="I" value="71"/>
+					<Prp name="selectiontop" type="I" value="1015"/>
+					<Prp name="selectionwidth" type="I" value="520"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Account_Info_N910T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item69">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Pandora_Shuffle_N910T.png"/>
+					<Prp name="initialhash" type="H" value="35043BC7"/>
+					<Prp name="initialheight" type="I" value="91"/>
+					<Prp name="initialleft" type="I" value="264"/>
+					<Prp name="initialtop" type="I" value="797"/>
+					<Prp name="initialwidth" type="I" value="247"/>
+					<Prp name="selectionheight" type="I" value="91"/>
+					<Prp name="selectionleft" type="I" value="264"/>
+					<Prp name="selectiontop" type="I" value="797"/>
+					<Prp name="selectionwidth" type="I" value="247"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Pandora_Shuffle_N910T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item7">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_SpecialOffers.png"/>
+					<Prp name="initialhash" type="H" value="C9C2AB84"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialtop" type="I" value="100"/>
+					<Prp name="initialwidth" type="I" value="1440"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectiontop" type="I" value="100"/>
+					<Prp name="selectionwidth" type="I" value="1440"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_SpecialOffers"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item70">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Pandora_Play_N910T.png"/>
+					<Prp name="initialhash" type="H" value="067389FC"/>
+					<Prp name="initialheight" type="I" value="320"/>
+					<Prp name="initialleft" type="I" value="720"/>
+					<Prp name="initialtop" type="I" value="2239"/>
+					<Prp name="initialwidth" type="I" value="320"/>
+					<Prp name="selectionheight" type="I" value="320"/>
+					<Prp name="selectionleft" type="I" value="720"/>
+					<Prp name="selectiontop" type="I" value="2239"/>
+					<Prp name="selectionwidth" type="I" value="320"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Pandora_Play_N910T"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item8">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\SpecialOffer_Accept_Image.png"/>
+					<Prp name="initialhash" type="H" value="A5513D75"/>
+					<Prp name="initialheight" type="I" value="120"/>
+					<Prp name="initialleft" type="I" value="734"/>
+					<Prp name="initialtop" type="I" value="2344"/>
+					<Prp name="initialwidth" type="I" value="610"/>
+					<Prp name="selectionheight" type="I" value="120"/>
+					<Prp name="selectionleft" type="I" value="734"/>
+					<Prp name="selectiontop" type="I" value="2344"/>
+					<Prp name="selectionwidth" type="I" value="610"/>
+				</Node>
+				<Prp name="caption" type="S" value="SpecialOffer_Accept_Image"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item9">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SM-N910T"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_HomeScreen.png"/>
+					<Prp name="initialhash" type="H" value="B16A16D2"/>
+					<Prp name="initialheight" type="I" value="192"/>
+					<Prp name="initialtop" type="I" value="100"/>
+					<Prp name="initialwidth" type="I" value="1216"/>
+					<Prp name="selectionheight" type="I" value="192"/>
+					<Prp name="selectiontop" type="I" value="100"/>
+					<Prp name="selectionwidth" type="I" value="1216"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_HomeScreen"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Prp name="item count" type="I" value="71"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{8F200B4B-B14E-468D-A3AC-003FCF8B1C20}"/>
+		<Prp name="signature" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="typename" type="S" value="Image Set"/>
+		<Prp name="version" type="I" value="100"/>
+	</Node>
+</Nodes>

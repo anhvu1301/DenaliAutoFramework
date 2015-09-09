@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="config">
+			<Prp name="node name" type="S" value="spinrilla"/>
+		</Node>
+		<Node name="data">
+			<Node name="item0">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Spinrilla_Playbutton_T999.png"/>
+					<Prp name="initialhash" type="H" value="ED1FE51F"/>
+					<Prp name="initialheight" type="I" value="106"/>
+					<Prp name="initialleft" type="I" value="520"/>
+					<Prp name="initialtop" type="I" value="1174"/>
+					<Prp name="initialwidth" type="I" value="100"/>
+					<Prp name="selectionheight" type="I" value="106"/>
+					<Prp name="selectionleft" type="I" value="520"/>
+					<Prp name="selectiontop" type="I" value="1174"/>
+					<Prp name="selectionwidth" type="I" value="100"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Spinrilla_Playbutton_T999"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item1">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Spinrilla_Pause_T999.png"/>
+					<Prp name="initialhash" type="H" value="6771D732"/>
+					<Prp name="initialheight" type="I" value="57"/>
+					<Prp name="initialleft" type="I" value="540"/>
+					<Prp name="initialtop" type="I" value="1203"/>
+					<Prp name="initialwidth" type="I" value="64"/>
+					<Prp name="selectionheight" type="I" value="57"/>
+					<Prp name="selectionleft" type="I" value="540"/>
+					<Prp name="selectiontop" type="I" value="1203"/>
+					<Prp name="selectionwidth" type="I" value="64"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Spinrilla_Pause_T999"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item2">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Spinrilla_Yellow_Playbutton_T999.png"/>
+					<Prp name="initialhash" type="H" value="C9D37159"/>
+					<Prp name="initialheight" type="I" value="55"/>
+					<Prp name="initialleft" type="I" value="603"/>
+					<Prp name="initialtop" type="I" value="594"/>
+					<Prp name="initialwidth" type="I" value="60"/>
+					<Prp name="selectionheight" type="I" value="55"/>
+					<Prp name="selectionleft" type="I" value="603"/>
+					<Prp name="selectiontop" type="I" value="594"/>
+					<Prp name="selectionwidth" type="I" value="60"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Spinrilla_Yellow_Playbutton_T999"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item3">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Spinrilla_Yellow_Pause_T999.png"/>
+					<Prp name="initialhash" type="H" value="E7CAEFA5"/>
+					<Prp name="initialheight" type="I" value="42"/>
+					<Prp name="initialleft" type="I" value="337"/>
+					<Prp name="initialtop" type="I" value="1165"/>
+					<Prp name="initialwidth" type="I" value="45"/>
+					<Prp name="selectionheight" type="I" value="42"/>
+					<Prp name="selectionleft" type="I" value="337"/>
+					<Prp name="selectiontop" type="I" value="1165"/>
+					<Prp name="selectionwidth" type="I" value="45"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Spinrilla_Yellow_Pause_T999"/>
+				<Prp name="iscomposite" type="B" value="-1"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Node name="item4">
+				<Node name="image0">
+					<Prp name="devicename" type="S" value="SGH-T999"/>
+					<Prp name="imagefilename" type="S" value="Data\cp_Spinrilla_Play_update_T999.png"/>
+					<Prp name="initialhash" type="H" value="ED1FE51F"/>
+					<Prp name="initialheight" type="I" value="106"/>
+					<Prp name="initialleft" type="I" value="520"/>
+					<Prp name="initialtop" type="I" value="1174"/>
+					<Prp name="initialwidth" type="I" value="100"/>
+					<Prp name="selectionheight" type="I" value="106"/>
+					<Prp name="selectionleft" type="I" value="520"/>
+					<Prp name="selectiontop" type="I" value="1174"/>
+					<Prp name="selectionwidth" type="I" value="100"/>
+				</Node>
+				<Prp name="caption" type="S" value="cp_Spinrilla_Play_update_T999"/>
+				<Prp name="item count" type="I" value="1"/>
+			</Node>
+			<Prp name="item count" type="I" value="5"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{FEBF8B5C-BF95-4E81-9761-4B97BE65B561}"/>
+		<Prp name="signature" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="type" type="S" value="{302E54A8-7D5B-4593-9563-357C2734256B}"/>
+		<Prp name="typename" type="S" value="Image Set"/>
+		<Prp name="version" type="I" value="100"/>
+	</Node>
+</Nodes>
